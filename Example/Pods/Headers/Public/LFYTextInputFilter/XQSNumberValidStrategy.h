@@ -1,1 +1,0 @@
-../../../../../LFYTextInputFilter/Classes/Strategy/XQSNumberValidStrategy.h

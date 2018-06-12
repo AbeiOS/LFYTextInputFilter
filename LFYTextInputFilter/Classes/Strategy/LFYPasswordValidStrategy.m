@@ -1,13 +1,12 @@
 //
-//  XQSPasswordValidStrategy.m
-//  XQSRegLoginModule
+//  LFYPasswordValidStrategy.m
 //
 //  Created by luffy on 2018/5/28.
 //
 
-#import "XQSPasswordValidStrategy.h"
+#import "LFYPasswordValidStrategy.h"
 
-@implementation XQSPasswordValidStrategy
+@implementation LFYPasswordValidStrategy
 
 - (void)filterInputView:(id<UITextInput>)textInput
 {

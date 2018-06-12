@@ -33,28 +33,28 @@
     
     self.title = @"LFYTextInputFilter";
     
-    [_textView1 lfy_makeStrategy:^(XQSStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(XQSStrategyOptionNumber);
+    [_textView1 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionNumber);
     }];
     
-    [_textField2 lfy_makeStrategy:^(XQSStrategyMaker *make) {
-        make.lfy_limit(15).lfy_option(XQSStrategyOptionNumber | XQSStrategyOptionCharacter);
+    [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(15).lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter);
     }];
     
-    [_textField3 lfy_makeStrategy:^(XQSStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(XQSStrategyOptionName);
+    [_textField3 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionName);
     }];
     
-    [_textField4 lfy_makeStrategy:^(XQSStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(XQSStrategyOptionWhitespace).lfy_inverted();
+    [_textField4 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionWhitespace).lfy_inverted();
     }];
     
-    [_textField5 lfy_makeStrategy:^(XQSStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(XQSStrategyOptionEmoji);
+    [_textField5 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionEmoji);
     }];
     
-    [_textField6 lfy_makeStrategy:^(XQSStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(XQSStrategyOptionAll);
+    [_textField6 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionAll);
     }];
     
     [self builderNotification:_textField2];

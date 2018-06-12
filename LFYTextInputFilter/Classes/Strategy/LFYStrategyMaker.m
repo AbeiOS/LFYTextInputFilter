@@ -1,32 +1,32 @@
 //
-//  XQSStrategyMaker.m
-//  XQSBaseUIKit
+//  LFYStrategyMaker.m
+//  LFYBaseUIKit
 //
 //  Created by luffy on 2018/6/11.
 //
 
-#import "XQSStrategyMaker.h"
+#import "LFYStrategyMaker.h"
 #import "UITextField+LFYFilter.h"
-#import "XQSPowerfullStrategy.h"
+#import "LFYPowerfullStrategy.h"
 
-@interface XQSStrategyMaker ()
+@interface LFYStrategyMaker ()
 
 /// textInput
 @property (nonatomic, strong) id<UITextInput> textInput;
 /// 字符数量
 @property (nonatomic, assign) NSInteger length;
 /// 策略类型
-@property (nonatomic, assign) XQSStrategyOptions option;
+@property (nonatomic, assign) LFYStrategyOptions option;
 /// 是否取反
 @property (nonatomic, assign, getter=isInverted) BOOL inverted;
 
 @end
 
-@implementation XQSStrategyMaker
+@implementation LFYStrategyMaker
 
-+ (XQSStrategyMaker *)maker:(id<UITextInput>)textInput
++ (LFYStrategyMaker *)maker:(id<UITextInput>)textInput
 {
-    XQSStrategyMaker *maker = [[XQSStrategyMaker alloc] initWithTextInput:textInput];
+    LFYStrategyMaker *maker = [[LFYStrategyMaker alloc] initWithTextInput:textInput];
     return maker;
 }
 
@@ -39,7 +39,7 @@
     return self;
 }
 
-- (XQSStrategyMaker *(^)(NSInteger))lfy_limit
+- (LFYStrategyMaker *(^)(NSInteger))lfy_limit
 {
     return ^(NSInteger length) {
         self.length = length;
@@ -47,9 +47,9 @@
     };
 }
 
-- (XQSStrategyMaker *(^)(XQSStrategyOptions))lfy_option
+- (LFYStrategyMaker *(^)(LFYStrategyOptions))lfy_option
 {
-    return ^(XQSStrategyOptions option) {
+    return ^(LFYStrategyOptions option) {
         self.option = option;
         return self;
     };
@@ -57,7 +57,7 @@
 
 - (void)install
 {
-    XQSPowerfullStrategy *strategy = [XQSPowerfullStrategy new];
+    LFYPowerfullStrategy *strategy = [LFYPowerfullStrategy new];
     strategy.option = self.option;
     strategy.limit = self.length;
     strategy.inverted = self.isInverted;
@@ -65,12 +65,12 @@
     ((UITextField *)self.textInput).validStrategy = strategy;
 }
 
-- (XQSStrategyMaker *)and
+- (LFYStrategyMaker *)and
 {
     return self;
 }
 
-- (XQSStrategyMaker *(^)(void))lfy_inverted
+- (LFYStrategyMaker *(^)(void))lfy_inverted
 {
     return ^ {
         self.inverted = YES;

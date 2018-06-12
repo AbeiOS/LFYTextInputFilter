@@ -1,13 +1,13 @@
 //
-//  XQSNumberValidStrategy.m
-//  XQSBaseUIKit
+//  LFYNumberValidStrategy.m
+//  LFYBaseUIKit
 //
 //  Created by luffy on 2018/5/29.
 //
 
-#import "XQSNumberValidStrategy.h"
+#import "LFYNumberValidStrategy.h"
 
-@implementation XQSNumberValidStrategy
+@implementation LFYNumberValidStrategy
 
 - (void)filterInputView:(id<UITextInput>)textInput
 {

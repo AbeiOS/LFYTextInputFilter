@@ -7,8 +7,8 @@
  
  • make
  self.textView = [UITextView new];
- [self.textView lfy_makeStrategy:^(XQSStrategyMaker *make) {
-    make.lfy_limit(10).and.lfy_option(XQSStrategyOptionPassword);
+ [self.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+    make.lfy_limit(10).and.lfy_option(LFYStrategyOptionPassword);
  }];
  
  • then
@@ -22,8 +22,8 @@
  
  • make
  self.textView = [UITextView new];
- [self.textView lfy_makeStrategy:^(XQSStrategyMaker *make) {
-    make.lfy_limit(10).and.lfy_option(XQSStrategyOptionWhitespace).invered();
+ [self.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+    make.lfy_limit(10).and.lfy_option(LFYStrategyOptionWhitespace).invered();
  }];
 
  • then
@@ -37,13 +37,13 @@
 /*
  以新增一个数字验证为例
  方式一 :
- • 新增一个继承 XQSBaseValidStrategy 名称叫 XQSNumberValidStrategy 的子类。
+ • 新增一个继承 LFYBaseValidStrategy 名称叫 LFYNumberValidStrategy 的子类。
  • 实现 - (void)filterInputView:(id<UITextInput>)textInput 方法，并在方法内调用父类的 filterInputView:validText: 方法，在 block 内 return text.lfy_isValidNumber;
  
  方式二 :
- • 在类 XQSPowerfullStrategy.m 的 filterInputView 添加
+ • 在类 LFYPowerfullStrategy.m 的 filterInputView 添加
  
- if (self.option & XQSStrategyOptionNumber) {
+ if (self.option & LFYStrategyOptionNumber) {
     canInput |= text.lfy_isValidNumber;
  
     if (canInput) {

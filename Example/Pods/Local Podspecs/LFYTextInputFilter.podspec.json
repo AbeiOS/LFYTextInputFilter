@@ -1,6 +1,6 @@
 {
   "name": "LFYTextInputFilter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A UITextField and UITextView Category can filter character",
   "description": "'A 'UITextField' and 'UITextView' Category that can filter character, it filter you needn't character'",
   "homepage": "https://github.com/AbeiOS/LFYTextInputFilter",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AbeiOS/LFYTextInputFilter.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

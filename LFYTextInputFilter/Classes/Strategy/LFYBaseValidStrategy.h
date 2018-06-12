@@ -1,6 +1,5 @@
 //
-//  XQSBaseValidStrategy.h
-//  XQSRegLoginModule
+//  LFYBaseValidStrategy.h
 //
 //  Created by luffy on 2018/5/28.
 //  验证的策略基类 定义了一些方法，但是只能使用它的子类去实现
@@ -8,7 +7,7 @@
 #import <Foundation/Foundation.h>
 #import "NSString+LFYFilter.h"
 
-@interface XQSBaseValidStrategy : NSObject
+@interface LFYBaseValidStrategy : NSObject
 /// 字数限制
 @property (nonatomic, assign) NSInteger limit;
 

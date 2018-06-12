@@ -1,14 +1,13 @@
 //
-//  XQSNameValidStrategy.m
-//  XQSRegLoginModule
+//  LFYNameValidStrategy.m
 //
 //  Created by luffy on 2018/5/28.
 //
 
-#import "XQSNameValidStrategy.h"
+#import "LFYNameValidStrategy.h"
 #import "NSString+LFYFilter.h"
 
-@implementation XQSNameValidStrategy
+@implementation LFYNameValidStrategy
 
 - (instancetype)init
 {

@@ -1,50 +1,50 @@
 //
-//  XQSPowerfullStrategy.m
-//  XQSBaseUIKit
+//  LFYPowerfullStrategy.m
+//  LFYBaseUIKit
 //
 //  Created by luffy on 2018/6/12.
 //
 
-#import "XQSPowerfullStrategy.h"
+#import "LFYPowerfullStrategy.h"
 
-@implementation XQSPowerfullStrategy
+@implementation LFYPowerfullStrategy
 
 - (void)filterInputView:(id<UITextInput>)textInput
 {
     [self filterInputView:textInput validText:^BOOL(NSString *text) {
         BOOL canInput = NO;
         
-        if (self.option & XQSStrategyOptionNumber)
+        if (self.option & LFYStrategyOptionNumber)
         {
             canInput |= text.lfy_isValidNumber;
         }
         
         
-        if (self.option & XQSStrategyOptionCharacter)
+        if (self.option & LFYStrategyOptionCharacter)
         {
             canInput |= text.lfy_isValidCharacter;
         }
         
 
-        if (self.option & XQSStrategyOptionName)
+        if (self.option & LFYStrategyOptionName)
         {
             canInput |= text.lfy_isValidName;
         }
         
         
-        if (self.option & XQSStrategyOptionEmoji)
+        if (self.option & LFYStrategyOptionEmoji)
         {
             canInput |= text.lfy_isValidEmoji;
         }
         
         
-        if (self.option & XQSStrategyOptionWhitespace)
+        if (self.option & LFYStrategyOptionWhitespace)
         {
             canInput |= text.lfy_isValidWhitespace;
         }
         
         
-        if (self.option & XQSStrategyOptionAll)
+        if (self.option & LFYStrategyOptionAll)
         {
             canInput |= YES;
         }

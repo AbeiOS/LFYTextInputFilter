@@ -1,13 +1,12 @@
 //
-//  XQSBaseValidStrategy.m
-//  XQSRegLoginModule
+//  LFYBaseValidStrategy.m
 //
 //  Created by luffy on 2018/5/28.
 //
 
-#import "XQSBaseValidStrategy.h"
+#import "LFYBaseValidStrategy.h"
 
-@implementation XQSBaseValidStrategy
+@implementation LFYBaseValidStrategy
 
 - (instancetype)init
 {

@@ -1,32 +1,31 @@
 //
 //  UITextField+LFYFilter.m
-//  XQSRegLoginModule
 //
 //  Created by luffy on 2018/5/28.
 //
 
 #import "UITextField+LFYFilter.h"
 #import <objc/message.h>
-#import "XQSBaseValidStrategy.h"
+#import "LFYBaseValidStrategy.h"
 
 @implementation UITextField (LFYFilter)
 
 static const void *validKey = @"validKey";
 
-- (void)lfy_makeStrategy:(void (^)(XQSStrategyMaker *))block
+- (void)lfy_makeStrategy:(void (^)(LFYStrategyMaker *))block
 {
-    XQSStrategyMaker *maker = [XQSStrategyMaker maker:self];
+    LFYStrategyMaker *maker = [LFYStrategyMaker maker:self];
     block(maker);
     [maker install];
 }
 
-- (XQSBaseValidStrategy *)validStrategy
+- (LFYBaseValidStrategy *)validStrategy
 {
     id strategy = objc_getAssociatedObject(self, validKey);
     return strategy;
 }
 
-- (void)setValidStrategy:(XQSBaseValidStrategy *)validStrategy
+- (void)setValidStrategy:(LFYBaseValidStrategy *)validStrategy
 {
     objc_setAssociatedObject(self, validKey, validStrategy, OBJC_ASSOCIATION_RETAIN);
 }
@@ -43,20 +42,20 @@ static const void *validKey = @"validKey";
 
 static const void *textViewValidKey = @"textViewValidKey";
 
-- (void)lfy_makeStrategy:(void (^)(XQSStrategyMaker *))block
+- (void)lfy_makeStrategy:(void (^)(LFYStrategyMaker *))block
 {
-    XQSStrategyMaker *maker = [XQSStrategyMaker maker:self];
+    LFYStrategyMaker *maker = [LFYStrategyMaker maker:self];
     block(maker);
     [maker install];
 }
 
-- (XQSBaseValidStrategy *)validStrategy
+- (LFYBaseValidStrategy *)validStrategy
 {
     id strategy = objc_getAssociatedObject(self, textViewValidKey);
     return strategy;
 }
 
-- (void)setValidStrategy:(XQSBaseValidStrategy *)validStrategy
+- (void)setValidStrategy:(LFYBaseValidStrategy *)validStrategy
 {
     objc_setAssociatedObject(self, textViewValidKey, validStrategy, OBJC_ASSOCIATION_RETAIN);
 }

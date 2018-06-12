@@ -1,13 +1,12 @@
 //
-//  XQSPasswordValidStrategy.h
-//  XQSRegLoginModule
+//  LFYPasswordValidStrategy.h
 //
 //  Created by luffy on 2018/5/28.
 //  验证密码的策略类（只能通过数字和字符）
 
-#import "XQSBaseValidStrategy.h"
+#import "LFYBaseValidStrategy.h"
 
-@interface XQSPasswordValidStrategy : XQSBaseValidStrategy
+@interface LFYPasswordValidStrategy : LFYBaseValidStrategy
 
 - (void)filterInputView:(id<UITextInput>)textInput;
 
