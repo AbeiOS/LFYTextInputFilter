@@ -2,8 +2,8 @@
 //  LFYViewController.m
 //  LFYTextInputFilter
 //
-//  Created by 2805508788@qq.com on 06/12/2018.
-//  Copyright (c) 2018 2805508788@qq.com. All rights reserved.
+//  Created by abei_os@126.com on 06/12/2018.
+//  Copyright (c) 2018 abei_os@126.com. All rights reserved.
 //
 
 #import "LFYViewController.h"
@@ -21,6 +21,11 @@
 @end
 
 @implementation LFYViewController
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
 - (void)viewDidLoad
 {
@@ -84,6 +89,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

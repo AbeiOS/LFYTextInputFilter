@@ -2,8 +2,8 @@
 //  LFYViewController.h
 //  LFYTextInputFilter
 //
-//  Created by 2805508788@qq.com on 06/12/2018.
-//  Copyright (c) 2018 2805508788@qq.com. All rights reserved.
+//  Created by abei_os@126.com on 06/12/2018.
+//  Copyright (c) 2018 abei_os@126.com. All rights reserved.
 //
 
 @import UIKit;

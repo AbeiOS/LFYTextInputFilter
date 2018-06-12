@@ -1,6 +1,6 @@
 # LFYTextInputFilter
 
-[![CI Status](https://img.shields.io/travis/2805508788@qq.com/LFYTextInputFilter.svg?style=flat)](https://travis-ci.org/2805508788@qq.com/LFYTextInputFilter)
+[![CI Status](https://img.shields.io/travis/abei_os@126.com/LFYTextInputFilter.svg?style=flat)](https://travis-ci.org/abei_os@126.com/LFYTextInputFilter)
 [![Version](https://img.shields.io/cocoapods/v/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 [![License](https://img.shields.io/cocoapods/l/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 [![Platform](https://img.shields.io/cocoapods/p/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)

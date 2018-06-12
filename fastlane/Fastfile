@@ -60,12 +60,13 @@ lane :upload_spec do |options|
   # pod_push(path: "#{targetName}.podspec", repo: "#{targetName}Spec", allow_warnings: true, use_libraries: true)
   # pod_lib_lint(allow_warnings: true, allow_warnings: kAllowWarnings, use_libraries: kUseLibraries, sources: [kGitRemote, kPrivateRemote])
   	 # pod repo push XXXX xxx.podspec --allow-warnings
-  pod_push( 
-    path: "#{kTargetName}.podspec", 
-    repo: kSpecsName, 
-    allow_warnings: kAllowWarnings,
-    use_libraries: kUseLibraries, 
-    sources: [kGitRemote, kPrivateRemote]
-    )
+  sh 'pod trunk push LFYTextInputFilter.podspec'
+  # pod_push( 
+  #   path: "#{kTargetName}.podspec", 
+  #   repo: kSpecsName, 
+  #   allow_warnings: kAllowWarnings,
+  #   use_libraries: kUseLibraries, 
+  #   sources: [kGitRemote, kPrivateRemote]
+  #   )
 
 end
