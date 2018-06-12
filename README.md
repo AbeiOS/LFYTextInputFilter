@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 [![License](https://img.shields.io/cocoapods/l/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 [![Platform](https://img.shields.io/cocoapods/p/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
-
+[![Pod version](https://badge.fury.io/co/LFYTextInputFilter@2x.png)](https://badge.fury.io/co/LFYTextInputFilter)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
