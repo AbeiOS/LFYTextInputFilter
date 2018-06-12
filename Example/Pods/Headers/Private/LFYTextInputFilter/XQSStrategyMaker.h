@@ -1,0 +1,1 @@
+../../../../../LFYTextInputFilter/Classes/Strategy/XQSStrategyMaker.h

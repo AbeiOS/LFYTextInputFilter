@@ -1,0 +1,1 @@
+../../../../../LFYTextInputFilter/Classes/Strategy/XQSPasswordValidStrategy.h

@@ -7,221 +7,198 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0648973667FB537BDC3ABFA9F3AD2ED8 /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F51876D791D30CD209AD4183E3F8A7F /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06FF2586AE76FBBCBF8171F98255D8CB /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 220B4F2821CD30A8FBDAF2E31E6F5778 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		084CD0F2F9F249E4022AC3DE185592E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
-		0CFB7E40C6DD927BE44ACDB001A65622 /* Pods-LFYTextInputFilter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F7B0551608334EDFFC7AF6B1231A95 /* Pods-LFYTextInputFilter_Example-dummy.m */; };
-		0DB2E34289D18AA9810609ADCCBFA181 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342E6D61C5FA911A8B58E8BADE06BAA /* IQBarButtonItem.m */; };
-		13D87E1D99CFD98771E8066E6FF832CD /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CE95A9B11DCFD78DC8FD72E8A402F7 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14479278EA90F38247811468ADD8EBB7 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC45EB15EC15D0CCE7353B66AE975C66 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F3368364524BA8374E765A8105FE50C /* XQSPasswordValidStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = C76A5883EAAF9FBBDFECB431F55B8C79 /* XQSPasswordValidStrategy.m */; };
-		2A19D3846362929EBD92D715A44FBBCF /* Pods-LFYTextInputFilter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D99B6C173C9F85796D5D8A152F13A6 /* Pods-LFYTextInputFilter_Tests-dummy.m */; };
-		2D407C6492BC569F5361B9210C89A19C /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00686DDAEBFD6361467EA5B8CE55B5BA /* IQKeyboardManager.m */; };
-		3218FF8B6E2FB489BC2372CACB0030E2 /* XQSNumberValidStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 71793EDF06772E84B7A9EAAAF3158324 /* XQSNumberValidStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33B0541B86FFB2D4122DA25DD2FADDD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
-		3619E77A8EC11571EE9F32921DAC0C89 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DCA64298D89F328E3C527FC7BE7E48 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		431C76067CB09B1FC0E4DD5AEA6B540A /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A3686372A00E4108601F98FB391949 /* IQUIScrollView+Additions.m */; };
-		5BD336D4E8710CFAA820E6CBB511BB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
-		5EC8FB6419F52277825934B23B640F23 /* LFYTextInputFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 659A9B12D031CD3562C1550E94605B9E /* LFYTextInputFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		639A86F8EDAF569092C61103FFAEA21D /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = E7409D2B31B6023C5A0EB172F2626172 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F5BA839B931DB6605554B6D4369A0C /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8760A629D307F77698B85866FEF5B481 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		665B3B037B98D3E3ADB449A43FF14F42 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F11CFDC29096027FAE24748300C6908C /* IQUITextFieldView+Additions.m */; };
-		667A1E1F4A80AA802274806E933ECD70 /* Pods-LFYTextInputFilter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F05316ED6C13A2841C1D08C96CC9CFDC /* Pods-LFYTextInputFilter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		688E0882DFC8CABA02390F43178CB33F /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 861BCD1B7519CAECE261202152D0E700 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		69005BCFF52F5F22D32E17B92FEF46C1 /* UITextField+LFYFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FDCD1FAC969A3FE35F0F31115E44B60 /* UITextField+LFYFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C6BB23DD12B8B47F3450F9F6F5B746D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
-		6E56D9A3B1B45C99E816F7D7351384E0 /* NSString+LFYFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1B0578B57B79EC1B4A28CA485A80C /* NSString+LFYFilter.m */; };
-		72EE4A5DC3076CD8C13717D4DAA37DFD /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 755CBE70B31E70191C9796D878A85297 /* IQTextView.m */; };
-		73CC595A3ED26AE9C58D0B3160DC2A90 /* XQSPowerfullStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EDA5A6C4C5D70D00231A42AFC78A2 /* XQSPowerfullStrategy.m */; };
-		788BA72F67004504FFDFC670048786B5 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 020ECC4A75B88C51E6E89535B9D4D4D9 /* IQKeyboardManager.bundle */; };
-		7BC348737B46DF7B3EFB092E48BDAA23 /* XQSNumberValidStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690A28E10EA9DAB0F521E4ADC9C63AD9 /* XQSNumberValidStrategy.m */; };
-		7C49A18841060D12A58F92CE62C21F9D /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF21EE6BF20BABBADCC43D42A603A7D /* IQNSArray+Sort.m */; };
-		7CF3668C8E30DA3CAB92C9C6A8B88B8F /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E6965E52156F7A9A1D09FE6B8B3ADC /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85F02B2E2F922F439A12C7CBB077E8DE /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373AC1E345C1810CA51FE559BB170525 /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E867FF780810F7EF965E001083CB8FB /* XQSNameValidStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A3DE9406453909CC6980C5E0F89F40 /* XQSNameValidStrategy.m */; };
-		8F6A51A23D29135E787562A0EB587B79 /* LFYTextInputFilter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B15B307F3743C34C77672CE75D86168 /* LFYTextInputFilter-dummy.m */; };
-		921754D100198C0A8133B5470ACDBF68 /* XQSStrategyMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D9F95B7E32993A11EAFE6404415119 /* XQSStrategyMaker.m */; };
-		958FEEE31215AB970371D4CBAEB8A4DC /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DC4F7FCC2BAF87B0A66AFCCFC8291D /* IQTitleBarButtonItem.m */; };
-		99249B44D65716B5CCA0BFFD5F83062C /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E733DC9EB515FE03AB569375F2843B /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A3767A5107540300BE0B9088670DEDA /* Pods-LFYTextInputFilter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E9319A762EAB66A6AF63EBA521D2F9 /* Pods-LFYTextInputFilter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3CE2D718CEB5AC059823178404AF0EF /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 214B968DDAA7EB98CE63C68BAA4D98B6 /* IQKeyboardManager-dummy.m */; };
-		AA08C68B8CA527D24852E09B26C8EFA9 /* XQSPasswordValidStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = D20BF4C88A67321540BA7D4AD7F64C96 /* XQSPasswordValidStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA2BA2A1C942769FA6F473970C894676 /* XQSBaseValidStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5100722F79061391F91F511DFC24025 /* XQSBaseValidStrategy.m */; };
-		AAC6DB8270C474C50F5D71DE9BC73382 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F29060BEED8778F2E4D2437E2EEDC4F9 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABD1EBA2D8EB64D90FE881B635BCA453 /* LFYTextInputFilter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B563C084737F37DEE6A9C57AC68B4940 /* LFYTextInputFilter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC78B53FD5C4B1CAF876622A8D00DDFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
-		AF4B7D9749284C3E349048702C6071DA /* UITextField+LFYFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348FD52374DBC4793477B194AC71ACE /* UITextField+LFYFilter.m */; };
-		B05BDA89A18DA866355AD804B694F851 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5CB1651B92C8C21380ACF30D32A33F /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B21C3C93DAA23B1C331B9326991CDCFC /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 328853FB7A45D007050F845B127F2584 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B48F85490DD7A636AAD7C2038A363430 /* XQSTextInputPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 84868D51FA2EF2BA833329F99391174F /* XQSTextInputPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B7F4EB405C401EA53023341C05E15E /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B09C94E6B33BAFB522027BE5D3ADB /* IQPreviousNextView.m */; };
-		C480AC5D32406D4901116FCAC5FB0EB5 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C7936243FF65D2FC44902E6DEDC1FB /* IQUIViewController+Additions.m */; };
-		C49ED0BA3BE26C50F202C5ED5FB85573 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 136923C8F91E73D8136864372EC5DD97 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4AA57B938513DE614A7B90AEF5CD858 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAD0D790DD752734EA843CB9284BEA /* IQUIView+IQKeyboardToolbar.m */; };
-		C5387F56E7B5924777146E8B3051201A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
-		CA1E205A4D3A8515ED42F76C2671F1BA /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FABA630FD313987449B9F4537D06AA /* IQToolbar.m */; };
-		CCBA591B6033609740E11E078A522729 /* XQSNameValidStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = E946403403082271F92F9F078806CC60 /* XQSNameValidStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF4EB3350726A86BCCDF5F363C5FCE72 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD62546AD2BDC266B419E9BF5CB32898 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D24E5780E9DD6FC8BFECAE1FD403B45B /* XQSBaseValidStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A9550273AF70B7B4BC97104EBE0404 /* XQSBaseValidStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEB92E2DB086E554AEA1DBFA8A9F00D0 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC898D5CD6464BFFB6C484FD827B739 /* IQUIView+Hierarchy.m */; };
-		E802560B425A04296159872675948D29 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC4234029D588DE3A764DAC9082D27 /* IQKeyboardReturnKeyHandler.m */; };
-		E8B186831858036F0D393EE72BF11D59 /* XQSStrategyMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0DF2F2BCDA9B484374C6A9306ADEBF /* XQSStrategyMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE44351F11ED90F904FFCB257094967F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
-		F0F8E3864873A6BEECE806575854880A /* XQSPowerfullStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3D8232C8CF5EE3C87A1B460A56581E /* XQSPowerfullStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDCAA4A17C0D1E5874AD54500432DF6B /* NSString+LFYFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCD17F5769FEAB94DC865079BABD206 /* NSString+LFYFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		087CB4E8A94B6FABB17107515B8FA29C /* XQSTextInputPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C0CE9758392D4A05207DDD220DF2A889 /* XQSTextInputPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CD6A958B421C84959F921143E7662FF /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18614F1646681919505FF631D062684A /* IQUIViewController+Additions.m */; };
+		13AA97B9D9B0E943554B3513A9273385 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F32721DF7298C60439A5C4DD2552B639 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AE740CA9DD11A1C662E179F881A7386 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6D4EA96CBFF29DABC3B94A40BC6610 /* IQKeyboardManager.m */; };
+		21157F381F3FB808295C363BE6F135B8 /* XQSBaseValidStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FCF4A8418F894DCB6F9EE34744F67C3 /* XQSBaseValidStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2474C980446D6CBCE6CCD23A0ED889E1 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = CA793A1683E5FDC75B045B4415CB8C93 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DA0795313E480A80A5A90BB1E9BDDB8 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1702301B4689D2D81793E2D14480C8ED /* IQTitleBarButtonItem.m */; };
+		327AD8070ED8C782F919E8F1147B0F46 /* XQSNumberValidStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEBAC40AD849E65866C30CFC46ED36 /* XQSNumberValidStrategy.m */; };
+		352427C52DC4C93B0718498D19FFD696 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E97D1C6C67F809A47770008D0E5BABF3 /* IQKeyboardManager-dummy.m */; };
+		35C5F0053B64D7548D95CDF7E7EBFC85 /* Pods-LFYTextInputFilter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F1941CF30AF8A9989FAB6721D79D1 /* Pods-LFYTextInputFilter_Tests-dummy.m */; };
+		3942FC914493ED296D7DE093BA3B337A /* XQSNumberValidStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F15373D216FC3AEDAF803B842AF3C24 /* XQSNumberValidStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FBFF015B78FCB610A10AC30E979D239 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 423A65FB8FB57671B10CE003E6E51E0C /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		501D6D37322ACE2558B60583429F9CB1 /* UITextField+LFYFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2593DE4840E04AE8E706ED1FB4D46DC1 /* UITextField+LFYFilter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5279E7AAEADE894E8BC20A5586F253CB /* XQSNameValidStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 488409BA76644221705AF73E6812DEEB /* XQSNameValidStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5484A8B2BB6B33DFC58C4C7AB8871F8F /* XQSPowerfullStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = C24B38881FF6E56F33B9281DA4051D06 /* XQSPowerfullStrategy.m */; };
+		5ECB3B4EE63B35693244DC8E476272AF /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FB18CC209D5291106F13C5438D3053A4 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63391430C243A5D8449DFC2F945455A3 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 817C1B3516E95A15B9B2FF66F7470116 /* IQToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66E3164519B5436903757501E2982E3E /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0917B845FCE0F2A7E6AF2A5D3B2D1ED3 /* IQTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		739ADAF7569E923F69FBF5332A72B036 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BDEFA10D674F8DF027FECEBBEBE8EB /* IQToolbar.m */; };
+		73F8A20273DDD2758D6E74523CD46C9A /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 493C8CBA32A238C67FC19D0289F74876 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F4B3DFF3848E512F7FCFA7B76DA2A9F /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C980F2EC6EF871E510D114947E46B85 /* IQUITextFieldView+Additions.m */; };
+		8156D70A1CD5169C43B210A660821FE1 /* XQSStrategyMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 91BA6DDDB0D7F02CDF4E04342FE444E9 /* XQSStrategyMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85D89322451CE3E68557807D935F7579 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
+		89F338A3ACF2BD3827725AAB49F06AD4 /* UITextField+LFYFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 882DB2923D2657B325C0E99E0A94190F /* UITextField+LFYFilter.m */; };
+		8D75F5D62CD9501E5CBD323FFDA71A46 /* XQSPasswordValidStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5817152E1AC08A81F20B06F3249F41AB /* XQSPasswordValidStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E05402B04BC0FE6DE6998C8288F559B /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F465B8B0E103106C4ED52BED54CFEA0D /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C853E0503634DDBA6DB1123CAAE0DC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		9DADA771D05EF0C45355B6544AFB5C16 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A8280BB3EF0373E144D7D08A87A999 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3D12FA5315D94C10510531DF2383623 /* NSString+LFYFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E478EE6E132AB50430CA88692DCE /* NSString+LFYFilter.m */; };
+		B3954BD0A3F350EDB5DC9B7E895C824B /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 542770B61503B2C79A4978DE34193198 /* IQKeyboardReturnKeyHandler.m */; };
+		B5BA5AC684D82F9098D26D4E30E99DF0 /* LFYTextInputFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 689D21DE255B9697BC6DEB01C95DEFB8 /* LFYTextInputFilter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFE44435DE67E992BC197AA192C1DA88 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 091324CEF344D4CC8A41B56F95BCAB1B /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C003574556A419434A9DDD5573246609 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		C0880FB8A5FEBD18937924CB981C5EAB /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FF154FAA46DC42A3CB3EAF0EA867CB /* IQNSArray+Sort.m */; };
+		C2C91DA3D69E3E231DB00F9872A99A28 /* XQSPowerfullStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE8EBE222E99030297D727EBD0E5B70 /* XQSPowerfullStrategy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4720488CC6D5D454BE0C1AEF554B337 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3F37D9CD334CE40823000E28F47B8C /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C493AB53C8DA1397EB043353081690EE /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FADAE13DAB2AE8E6A20545984D9EFF /* IQBarButtonItem.m */; };
+		CB225303BB0114B9759CBD02722BD9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		CC89A055D3C5F9283106BC8A5DAC4FDC /* Pods-LFYTextInputFilter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49442859F967EB7FFCB2BF526468C6B5 /* Pods-LFYTextInputFilter_Example-dummy.m */; };
+		D49FF46F3D5BA6EFE0E4A12AF1B8E9A9 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9A0D63D5BD2617E62CDD3706B46360 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D538FA0D5ADCFECD3EEECE1B4FF95AF3 /* XQSBaseValidStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1BEEB1774F868B523C304E8D16A60 /* XQSBaseValidStrategy.m */; };
+		D8188D3ADB1BB024A8798BBED5593B5E /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F7911C40C98F6B1A739B527B0A2906 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D865F1299909BDA5029ACA535789B510 /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EA26082C84CFC125EDF17D7A2CEAE18D /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCA6AAF5B646E9D1C5AC158CBD0075EC /* LFYTextInputFilter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CCF2C461731284A6F3DBD29343AF07 /* LFYTextInputFilter-dummy.m */; };
+		E07F7C51868A67DD151C337E6F2EA6D6 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E0D5314ADF56809F59DC2D9D2DDF3 /* IQPreviousNextView.m */; };
+		E32307F2F563511737FCD523E9C4D391 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = DB56EEA25055C254736AEE54221533E5 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3B45941B3C0C3FD5396F4AED2B1A982 /* NSString+LFYFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 386085DFF026EC60A0153A08CB45886F /* NSString+LFYFilter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E74C2BD17215F2B2257B1444C32784BA /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A28C1D494D02FDB09D99EED248DFC031 /* IQUIView+IQKeyboardToolbar.m */; };
+		ED289561D3704FA1D7428FA4D43DE9B7 /* XQSNameValidStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBFFE99927701006F2971E72AA3A600 /* XQSNameValidStrategy.m */; };
+		EF23ED9F9BE7443E830973846D7F3480 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6245589D61A94EB4F0C2CAAD7C204876 /* IQUIScrollView+Additions.m */; };
+		F0E7B4BB658AB4DD61B54C3B0BE20A68 /* XQSStrategyMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7576A3EFE994837A838CE609FDD9AD30 /* XQSStrategyMaker.m */; };
+		F49C9CDB089E8335E0C6593F945E98CE /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE19730149604FD173EFAA9BA486AA6 /* IQTextView.m */; };
+		F4E37076158983951363B96E4B63D776 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EE5CF34E62B8738D5052933C2FF112 /* IQUIView+Hierarchy.m */; };
+		FB7EA49DE67406F79794A9A2C63DE699 /* XQSPasswordValidStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925294F2DE4C0CBF0FF0C8FA7B2FD4D /* XQSPasswordValidStrategy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		573755459B287188D1F860CF69829752 /* PBXContainerItemProxy */ = {
+		0973520066B595C0DD597BFC2E6DC94D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D76DA51856F1F4D5E70B44CADA60B679;
-			remoteInfo = "Pods-LFYTextInputFilter_Example";
+			remoteGlobalIDString = D6FBFDBC00B388471F2914F736751944;
+			remoteInfo = IQKeyboardManager;
 		};
-		A750FC7FCEB89B7A45A552E533BE6FAA /* PBXContainerItemProxy */ = {
+		2D6F0ADE6AA9D35A57E1767E2116076C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FC10628D6C513D0E1D13AC04BC1212C;
+			remoteGlobalIDString = DF27AC0206B47AE99A52D18B7BFB3A3C;
 			remoteInfo = LFYTextInputFilter;
 		};
-		C4122263075A4304391C7DBB9836F14B /* PBXContainerItemProxy */ = {
+		F8053AC15F13CD524287AABF665AD1D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D55833EC3DE9EBD9B329CAEB983D5A9D;
-			remoteInfo = IQKeyboardManager;
+			remoteGlobalIDString = 5B8C35B2634F1F0CD9BA7056902EB696;
+			remoteInfo = "Pods-LFYTextInputFilter_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00686DDAEBFD6361467EA5B8CE55B5BA /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
-		020ECC4A75B88C51E6E89535B9D4D4D9 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
-		08E9319A762EAB66A6AF63EBA521D2F9 /* Pods-LFYTextInputFilter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFYTextInputFilter_Example-umbrella.h"; sourceTree = "<group>"; };
-		0AE8805370BD77371FCE647C331893A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DF5A75E48CB3E334D74A34293B5187E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FDCD1FAC969A3FE35F0F31115E44B60 /* UITextField+LFYFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+LFYFilter.h"; sourceTree = "<group>"; };
-		10CF6FE5D744A556BDB8AED51304368E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		136923C8F91E73D8136864372EC5DD97 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
-		17D92240C89D24ADC6F8B5DEE548E640 /* LFYTextInputFilter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LFYTextInputFilter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		214B968DDAA7EB98CE63C68BAA4D98B6 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
-		220B4F2821CD30A8FBDAF2E31E6F5778 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
-		22A9550273AF70B7B4BC97104EBE0404 /* XQSBaseValidStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSBaseValidStrategy.h; sourceTree = "<group>"; };
-		25A3DE9406453909CC6980C5E0F89F40 /* XQSNameValidStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSNameValidStrategy.m; sourceTree = "<group>"; };
-		2CEAD0D790DD752734EA843CB9284BEA /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		2EE83FD6769A161EBA3A5AF877EDF0BA /* Pods-LFYTextInputFilter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFYTextInputFilter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		328853FB7A45D007050F845B127F2584 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
-		3348FD52374DBC4793477B194AC71ACE /* UITextField+LFYFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LFYFilter.m"; sourceTree = "<group>"; };
-		33A1135FA385488A1220DD9E33EDDB43 /* Pods-LFYTextInputFilter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYTextInputFilter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		357B2520E3B91557CAEB1C329A589F93 /* Pods_LFYTextInputFilter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFYTextInputFilter_Tests.framework; path = "Pods-LFYTextInputFilter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36756B000AA393DD72C5C37C422E3A7B /* Pods-LFYTextInputFilter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYTextInputFilter_Tests-resources.sh"; sourceTree = "<group>"; };
-		36A3686372A00E4108601F98FB391949 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
-		373AC1E345C1810CA51FE559BB170525 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		00CCF2C461731284A6F3DBD29343AF07 /* LFYTextInputFilter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFYTextInputFilter-dummy.m"; sourceTree = "<group>"; };
+		091324CEF344D4CC8A41B56F95BCAB1B /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		0917B845FCE0F2A7E6AF2A5D3B2D1ED3 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		0925294F2DE4C0CBF0FF0C8FA7B2FD4D /* XQSPasswordValidStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSPasswordValidStrategy.m; sourceTree = "<group>"; };
+		0D5B0A26391DC51F580BF605051E7774 /* LFYTextInputFilter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LFYTextInputFilter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0DD9FC8EA4E9051D3FEDAA147A2FBE61 /* LFYTextInputFilter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFYTextInputFilter.xcconfig; sourceTree = "<group>"; };
+		0FCF4A8418F894DCB6F9EE34744F67C3 /* XQSBaseValidStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSBaseValidStrategy.h; sourceTree = "<group>"; };
+		11BDEFA10D674F8DF027FECEBBEBE8EB /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		13EE5CF34E62B8738D5052933C2FF112 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		13FF154FAA46DC42A3CB3EAF0EA867CB /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		1702301B4689D2D81793E2D14480C8ED /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		18614F1646681919505FF631D062684A /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		1A9A0D63D5BD2617E62CDD3706B46360 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		2593DE4840E04AE8E706ED1FB4D46DC1 /* UITextField+LFYFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+LFYFilter.h"; sourceTree = "<group>"; };
+		2AA1BEEB1774F868B523C304E8D16A60 /* XQSBaseValidStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSBaseValidStrategy.m; sourceTree = "<group>"; };
+		2AE8EBE222E99030297D727EBD0E5B70 /* XQSPowerfullStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSPowerfullStrategy.h; sourceTree = "<group>"; };
+		2D67C04D93F461AE901476A9936D649B /* libLFYTextInputFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLFYTextInputFilter.a; path = libLFYTextInputFilter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5F1941CF30AF8A9989FAB6721D79D1 /* Pods-LFYTextInputFilter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFYTextInputFilter_Tests-dummy.m"; sourceTree = "<group>"; };
+		2F4059B54ED2A1525F1A8B44A2B65619 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		323CBEA7C7A4C494F424C15F26A25C7F /* libPods-LFYTextInputFilter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LFYTextInputFilter_Tests.a"; path = "libPods-LFYTextInputFilter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3628C8CC3F9ABD257B5E39D249CEB9C7 /* Pods-LFYTextInputFilter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYTextInputFilter_Example-resources.sh"; sourceTree = "<group>"; };
 		37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		3F51876D791D30CD209AD4183E3F8A7F /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
-		41F7B0551608334EDFFC7AF6B1231A95 /* Pods-LFYTextInputFilter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFYTextInputFilter_Example-dummy.m"; sourceTree = "<group>"; };
-		42D9F95B7E32993A11EAFE6404415119 /* XQSStrategyMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSStrategyMaker.m; sourceTree = "<group>"; };
-		4A5562594D3AB3DE30EB6806416D6243 /* Pods-LFYTextInputFilter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFYTextInputFilter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4DCD17F5769FEAB94DC865079BABD206 /* NSString+LFYFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LFYFilter.h"; sourceTree = "<group>"; };
-		4EED54AC8481DD07231D3F993C570582 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58DB54CB89EEF3669B7F5D3E62C36A56 /* Pods-LFYTextInputFilter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYTextInputFilter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		61EC4234029D588DE3A764DAC9082D27 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
-		621039BC274B3736A0D7E55392ABA9ED /* Pods-LFYTextInputFilter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFYTextInputFilter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		659A9B12D031CD3562C1550E94605B9E /* LFYTextInputFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFYTextInputFilter.h; path = LFYTextInputFilter/Classes/LFYTextInputFilter.h; sourceTree = "<group>"; };
-		666B09C94E6B33BAFB522027BE5D3ADB /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
-		690A28E10EA9DAB0F521E4ADC9C63AD9 /* XQSNumberValidStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSNumberValidStrategy.m; sourceTree = "<group>"; };
-		6BA72F48A44120A3D326927321C96769 /* LFYTextInputFilter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFYTextInputFilter-prefix.pch"; sourceTree = "<group>"; };
-		6FF21EE6BF20BABBADCC43D42A603A7D /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
-		71793EDF06772E84B7A9EAAAF3158324 /* XQSNumberValidStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSNumberValidStrategy.h; sourceTree = "<group>"; };
-		7184BC43D344F78713BCBF7B2B516FBE /* Pods-LFYTextInputFilter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYTextInputFilter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7342E6D61C5FA911A8B58E8BADE06BAA /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
-		74CF7EB529595B9527DDEE88C4035E74 /* Pods-LFYTextInputFilter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYTextInputFilter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		755CBE70B31E70191C9796D878A85297 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
-		7BC898D5CD6464BFFB6C484FD827B739 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
-		7EE03F6822609CDD6EB126A152805A89 /* Pods-LFYTextInputFilter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LFYTextInputFilter_Tests.modulemap"; sourceTree = "<group>"; };
-		84868D51FA2EF2BA833329F99391174F /* XQSTextInputPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSTextInputPrivate.h; sourceTree = "<group>"; };
-		861BCD1B7519CAECE261202152D0E700 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
-		8760A629D307F77698B85866FEF5B481 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
-		891D72A427EB65B0C89747DD9236F15C /* Pods-LFYTextInputFilter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYTextInputFilter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8A1C23FC0F74E6BCB8C44E644570A39D /* Pods-LFYTextInputFilter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYTextInputFilter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8E0DF2F2BCDA9B484374C6A9306ADEBF /* XQSStrategyMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSStrategyMaker.h; sourceTree = "<group>"; };
-		8EAD30F315AB7317FC9188FA2CAE13E5 /* LFYTextInputFilter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LFYTextInputFilter.modulemap; sourceTree = "<group>"; };
-		90E733DC9EB515FE03AB569375F2843B /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		386085DFF026EC60A0153A08CB45886F /* NSString+LFYFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LFYFilter.h"; sourceTree = "<group>"; };
+		389650189B445997F192AFB15596DAD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		423A65FB8FB57671B10CE003E6E51E0C /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		488409BA76644221705AF73E6812DEEB /* XQSNameValidStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSNameValidStrategy.h; sourceTree = "<group>"; };
+		493C8CBA32A238C67FC19D0289F74876 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		49442859F967EB7FFCB2BF526468C6B5 /* Pods-LFYTextInputFilter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFYTextInputFilter_Example-dummy.m"; sourceTree = "<group>"; };
+		542770B61503B2C79A4978DE34193198 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		548AFC07DFD6320B923502A487250A0F /* Pods-LFYTextInputFilter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFYTextInputFilter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5817152E1AC08A81F20B06F3249F41AB /* XQSPasswordValidStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSPasswordValidStrategy.h; sourceTree = "<group>"; };
+		5E3F37D9CD334CE40823000E28F47B8C /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		5F72F9862B8844737A97934E440B5EA5 /* Pods-LFYTextInputFilter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFYTextInputFilter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FE64C4A71EE7128D9540158D1CAA588 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		6245589D61A94EB4F0C2CAAD7C204876 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		67F7911C40C98F6B1A739B527B0A2906 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		689D21DE255B9697BC6DEB01C95DEFB8 /* LFYTextInputFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFYTextInputFilter.h; path = LFYTextInputFilter/Classes/LFYTextInputFilter.h; sourceTree = "<group>"; };
+		6C980F2EC6EF871E510D114947E46B85 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		6E8AD24A8AB69105096D00BC3836489A /* Pods-LFYTextInputFilter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYTextInputFilter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7079892879BED64133DBE57E36CBBA99 /* Pods-LFYTextInputFilter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYTextInputFilter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		73A8280BB3EF0373E144D7D08A87A999 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		7576A3EFE994837A838CE609FDD9AD30 /* XQSStrategyMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSStrategyMaker.m; sourceTree = "<group>"; };
+		817C1B3516E95A15B9B2FF66F7470116 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		836BC20DA76EEB823F545A9A977B9526 /* libPods-LFYTextInputFilter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LFYTextInputFilter_Example.a"; path = "libPods-LFYTextInputFilter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882DB2923D2657B325C0E99E0A94190F /* UITextField+LFYFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LFYFilter.m"; sourceTree = "<group>"; };
+		8A6D4EA96CBFF29DABC3B94A40BC6610 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		8B8E21E307F3C5C4D42646D658B14E9F /* Pods-LFYTextInputFilter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYTextInputFilter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F15373D216FC3AEDAF803B842AF3C24 /* XQSNumberValidStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSNumberValidStrategy.h; sourceTree = "<group>"; };
+		91BA6DDDB0D7F02CDF4E04342FE444E9 /* XQSStrategyMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSStrategyMaker.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A725AFA4C998C349FB6CC3F58B076A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9B15B307F3743C34C77672CE75D86168 /* LFYTextInputFilter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFYTextInputFilter-dummy.m"; sourceTree = "<group>"; };
-		9E3EDA5A6C4C5D70D00231A42AFC78A2 /* XQSPowerfullStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSPowerfullStrategy.m; sourceTree = "<group>"; };
-		AB3D8232C8CF5EE3C87A1B460A56581E /* XQSPowerfullStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSPowerfullStrategy.h; sourceTree = "<group>"; };
-		ADD19F351401958A5DBAAA341588BE05 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
-		B0D7A252CCD99FB8519A781A2EE4EBE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3CE95A9B11DCFD78DC8FD72E8A402F7 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
-		B563C084737F37DEE6A9C57AC68B4940 /* LFYTextInputFilter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFYTextInputFilter-umbrella.h"; sourceTree = "<group>"; };
+		A2443199DCE30D5514FFE5489668D94A /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIQKeyboardManager.a; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28C1D494D02FDB09D99EED248DFC031 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		A9AEBAC40AD849E65866C30CFC46ED36 /* XQSNumberValidStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSNumberValidStrategy.m; sourceTree = "<group>"; };
+		B3673BD7A4CD10A150D4DA01A012C532 /* Pods-LFYTextInputFilter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYTextInputFilter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		B6DCA64298D89F328E3C527FC7BE7E48 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
-		B8D99B6C173C9F85796D5D8A152F13A6 /* Pods-LFYTextInputFilter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFYTextInputFilter_Tests-dummy.m"; sourceTree = "<group>"; };
-		B9DEAE59F65F2805192F4E1627ADEEE8 /* LFYTextInputFilter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFYTextInputFilter.xcconfig; sourceTree = "<group>"; };
-		BC45EB15EC15D0CCE7353B66AE975C66 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
-		BD5CB1651B92C8C21380ACF30D32A33F /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
-		C3C7936243FF65D2FC44902E6DEDC1FB /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
-		C76A5883EAAF9FBBDFECB431F55B8C79 /* XQSPasswordValidStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSPasswordValidStrategy.m; sourceTree = "<group>"; };
-		C79F21A9B627F428D9FBBF486C1CEF8D /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
-		C91921E194160B8D19D2C609A4145A76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CDF1B0578B57B79EC1B4A28CA485A80C /* NSString+LFYFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LFYFilter.m"; sourceTree = "<group>"; };
-		D20BF4C88A67321540BA7D4AD7F64C96 /* XQSPasswordValidStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSPasswordValidStrategy.h; sourceTree = "<group>"; };
-		D504E4DEB9336589C152BF1719969DD8 /* Pods-LFYTextInputFilter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFYTextInputFilter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDA13C93A975A45E289B6B1F841349D4 /* Pods-LFYTextInputFilter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFYTextInputFilter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE043A653D1C082791AEAB4E2938A548 /* Pods-LFYTextInputFilter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYTextInputFilter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C0CE9758392D4A05207DDD220DF2A889 /* XQSTextInputPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSTextInputPrivate.h; sourceTree = "<group>"; };
+		C24B38881FF6E56F33B9281DA4051D06 /* XQSPowerfullStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSPowerfullStrategy.m; sourceTree = "<group>"; };
+		C79BC9C9ABA53D51ACF6F6B923EB133E /* LFYTextInputFilter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFYTextInputFilter-prefix.pch"; sourceTree = "<group>"; };
+		C866ABDBA55AC2FF7D99BF153D5F8DA8 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		C8FADAE13DAB2AE8E6A20545984D9EFF /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		CA3CA8DE82E095254712A922E7354A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CA793A1683E5FDC75B045B4415CB8C93 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		CBBFFE99927701006F2971E72AA3A600 /* XQSNameValidStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSNameValidStrategy.m; sourceTree = "<group>"; };
+		CEE19730149604FD173EFAA9BA486AA6 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
 		D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DC0C16DC56037C70B7D29C2EDBD4B2F2 /* Pods-LFYTextInputFilter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYTextInputFilter_Example-resources.sh"; sourceTree = "<group>"; };
-		DD62546AD2BDC266B419E9BF5CB32898 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
-		E13E6F059BEC3415BDB5F2E226599C39 /* LFYTextInputFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LFYTextInputFilter.framework; path = LFYTextInputFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5E6965E52156F7A9A1D09FE6B8B3ADC /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
-		E7409D2B31B6023C5A0EB172F2626172 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		D63904ED4A3B7C94D202D3D63FF79A30 /* Pods-LFYTextInputFilter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFYTextInputFilter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F9E478EE6E132AB50430CA88692DCE /* NSString+LFYFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LFYFilter.m"; sourceTree = "<group>"; };
+		DB56EEA25055C254736AEE54221533E5 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		E17E0D5314ADF56809F59DC2D9D2DDF3 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
 		E89163E94743FDDD60913C47150E225B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E946403403082271F92F9F078806CC60 /* XQSNameValidStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XQSNameValidStrategy.h; sourceTree = "<group>"; };
-		E9FABA630FD313987449B9F4537D06AA /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
-		EFF3EADD167B317B4ED7374B6108082B /* Pods-LFYTextInputFilter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LFYTextInputFilter_Example.modulemap"; sourceTree = "<group>"; };
-		F05316ED6C13A2841C1D08C96CC9CFDC /* Pods-LFYTextInputFilter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LFYTextInputFilter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F11CFDC29096027FAE24748300C6908C /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
-		F29060BEED8778F2E4D2437E2EEDC4F9 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
-		F5100722F79061391F91F511DFC24025 /* XQSBaseValidStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XQSBaseValidStrategy.m; sourceTree = "<group>"; };
-		F524955B676323532C56D0A08FDB7C5C /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
-		F5DC4F7FCC2BAF87B0A66AFCCFC8291D /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
-		FB50476F96210D15857DE004BE36F473 /* Pods_LFYTextInputFilter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LFYTextInputFilter_Example.framework; path = "Pods-LFYTextInputFilter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97D1C6C67F809A47770008D0E5BABF3 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		EA26082C84CFC125EDF17D7A2CEAE18D /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		F05BFE710628CF34B3ED33B7459C874A /* Pods-LFYTextInputFilter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFYTextInputFilter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F32721DF7298C60439A5C4DD2552B639 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		F3443393E9849EDBF1E5AD6384DCBFBC /* Pods-LFYTextInputFilter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LFYTextInputFilter_Tests-resources.sh"; sourceTree = "<group>"; };
+		F465B8B0E103106C4ED52BED54CFEA0D /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		FB18CC209D5291106F13C5438D3053A4 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		70E6BA7CD5182E217490911EBE6168F7 /* Frameworks */ = {
+		30A11DB98A9A393F4132A93317EE87B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				084CD0F2F9F249E4022AC3DE185592E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8944C0B131AF550CF6CC8073435E22F2 /* Frameworks */ = {
+		43417A54869962D0176D0AF9A703CC07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5387F56E7B5924777146E8B3051201A /* CoreGraphics.framework in Frameworks */,
-				5BD336D4E8710CFAA820E6CBB511BB2A /* Foundation.framework in Frameworks */,
-				33B0541B86FFB2D4122DA25DD2FADDD3 /* QuartzCore.framework in Frameworks */,
-				EE44351F11ED90F904FFCB257094967F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D89054F86B2E768B5651DE8CE4523036 /* Frameworks */ = {
+		472E76432AEB09AA8CC6266630B068D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6BB23DD12B8B47F3450F9F6F5B746D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAEE3AE74A29C5DC1B7AE6DDDDEBE332 /* Frameworks */ = {
+		A4817342F231FCE9EA7AEB5EDB33362B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC78B53FD5C4B1CAF876622A8D00DDFA /* Foundation.framework in Frameworks */,
+				85D89322451CE3E68557807D935F7579 /* CoreGraphics.framework in Frameworks */,
+				CB225303BB0114B9759CBD02722BD9D2 /* Foundation.framework in Frameworks */,
+				C003574556A419434A9DDD5573246609 /* QuartzCore.framework in Frameworks */,
+				9C853E0503634DDBA6DB1123CAAE0DC9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +208,7 @@
 		062CC768B06593B5D721AB1F42B8479E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCA65D9B3B9F22D18156605600A68A5F /* IQKeyboardManager */,
+				948602AC39B2059F6046F13D707A8372 /* IQKeyboardManager */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -242,6 +219,31 @@
 				53C8B4AB97860F06FE722851EA867B18 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17A455F8EC7BF9973DD0EBAA8E44F4AB /* Pods-LFYTextInputFilter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F05BFE710628CF34B3ED33B7459C874A /* Pods-LFYTextInputFilter_Tests-acknowledgements.markdown */,
+				548AFC07DFD6320B923502A487250A0F /* Pods-LFYTextInputFilter_Tests-acknowledgements.plist */,
+				2E5F1941CF30AF8A9989FAB6721D79D1 /* Pods-LFYTextInputFilter_Tests-dummy.m */,
+				7079892879BED64133DBE57E36CBBA99 /* Pods-LFYTextInputFilter_Tests-frameworks.sh */,
+				F3443393E9849EDBF1E5AD6384DCBFBC /* Pods-LFYTextInputFilter_Tests-resources.sh */,
+				8B8E21E307F3C5C4D42646D658B14E9F /* Pods-LFYTextInputFilter_Tests.debug.xcconfig */,
+				B3673BD7A4CD10A150D4DA01A012C532 /* Pods-LFYTextInputFilter_Tests.release.xcconfig */,
+			);
+			name = "Pods-LFYTextInputFilter_Tests";
+			path = "Target Support Files/Pods-LFYTextInputFilter_Tests";
+			sourceTree = "<group>";
+		};
+		250D9579744876CD6262054EB94AF1FA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0D5B0A26391DC51F580BF605051E7774 /* LFYTextInputFilter.podspec */,
+				389650189B445997F192AFB15596DAD0 /* LICENSE */,
+				CA3CA8DE82E095254712A922E7354A65 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		53C8B4AB97860F06FE722851EA867B18 /* iOS */ = {
@@ -255,51 +257,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		542CA6DDB2055226CB960DB40373941B /* Resources */ = {
+		787BFF2D4E0190DBF0E670105E6891F8 /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
-				020ECC4A75B88C51E6E89535B9D4D4D9 /* IQKeyboardManager.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		611C4C5F5E2067B44FB7B1BC33C20064 /* Strategy */ = {
-			isa = PBXGroup;
-			children = (
-				22A9550273AF70B7B4BC97104EBE0404 /* XQSBaseValidStrategy.h */,
-				F5100722F79061391F91F511DFC24025 /* XQSBaseValidStrategy.m */,
-				E946403403082271F92F9F078806CC60 /* XQSNameValidStrategy.h */,
-				25A3DE9406453909CC6980C5E0F89F40 /* XQSNameValidStrategy.m */,
-				71793EDF06772E84B7A9EAAAF3158324 /* XQSNumberValidStrategy.h */,
-				690A28E10EA9DAB0F521E4ADC9C63AD9 /* XQSNumberValidStrategy.m */,
-				D20BF4C88A67321540BA7D4AD7F64C96 /* XQSPasswordValidStrategy.h */,
-				C76A5883EAAF9FBBDFECB431F55B8C79 /* XQSPasswordValidStrategy.m */,
-				AB3D8232C8CF5EE3C87A1B460A56581E /* XQSPowerfullStrategy.h */,
-				9E3EDA5A6C4C5D70D00231A42AFC78A2 /* XQSPowerfullStrategy.m */,
-				8E0DF2F2BCDA9B484374C6A9306ADEBF /* XQSStrategyMaker.h */,
-				42D9F95B7E32993A11EAFE6404415119 /* XQSStrategyMaker.m */,
-				84868D51FA2EF2BA833329F99391174F /* XQSTextInputPrivate.h */,
+				0FCF4A8418F894DCB6F9EE34744F67C3 /* XQSBaseValidStrategy.h */,
+				2AA1BEEB1774F868B523C304E8D16A60 /* XQSBaseValidStrategy.m */,
+				488409BA76644221705AF73E6812DEEB /* XQSNameValidStrategy.h */,
+				CBBFFE99927701006F2971E72AA3A600 /* XQSNameValidStrategy.m */,
+				8F15373D216FC3AEDAF803B842AF3C24 /* XQSNumberValidStrategy.h */,
+				A9AEBAC40AD849E65866C30CFC46ED36 /* XQSNumberValidStrategy.m */,
+				5817152E1AC08A81F20B06F3249F41AB /* XQSPasswordValidStrategy.h */,
+				0925294F2DE4C0CBF0FF0C8FA7B2FD4D /* XQSPasswordValidStrategy.m */,
+				2AE8EBE222E99030297D727EBD0E5B70 /* XQSPowerfullStrategy.h */,
+				C24B38881FF6E56F33B9281DA4051D06 /* XQSPowerfullStrategy.m */,
+				91BA6DDDB0D7F02CDF4E04342FE444E9 /* XQSStrategyMaker.h */,
+				7576A3EFE994837A838CE609FDD9AD30 /* XQSStrategyMaker.m */,
+				C0CE9758392D4A05207DDD220DF2A889 /* XQSTextInputPrivate.h */,
 			);
 			name = Strategy;
 			path = LFYTextInputFilter/Classes/Strategy;
-			sourceTree = "<group>";
-		};
-		65B4AB64D2E344DFAFD9FEB075AA6085 /* Pods-LFYTextInputFilter_Example */ = {
-			isa = PBXGroup;
-			children = (
-				4EED54AC8481DD07231D3F993C570582 /* Info.plist */,
-				EFF3EADD167B317B4ED7374B6108082B /* Pods-LFYTextInputFilter_Example.modulemap */,
-				4A5562594D3AB3DE30EB6806416D6243 /* Pods-LFYTextInputFilter_Example-acknowledgements.markdown */,
-				D504E4DEB9336589C152BF1719969DD8 /* Pods-LFYTextInputFilter_Example-acknowledgements.plist */,
-				41F7B0551608334EDFFC7AF6B1231A95 /* Pods-LFYTextInputFilter_Example-dummy.m */,
-				33A1135FA385488A1220DD9E33EDDB43 /* Pods-LFYTextInputFilter_Example-frameworks.sh */,
-				DC0C16DC56037C70B7D29C2EDBD4B2F2 /* Pods-LFYTextInputFilter_Example-resources.sh */,
-				08E9319A762EAB66A6AF63EBA521D2F9 /* Pods-LFYTextInputFilter_Example-umbrella.h */,
-				58DB54CB89EEF3669B7F5D3E62C36A56 /* Pods-LFYTextInputFilter_Example.debug.xcconfig */,
-				8A1C23FC0F74E6BCB8C44E644570A39D /* Pods-LFYTextInputFilter_Example.release.xcconfig */,
-			);
-			name = "Pods-LFYTextInputFilter_Example";
-			path = "Target Support Files/Pods-LFYTextInputFilter_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -309,69 +285,90 @@
 				B4063A44237FBD8F7015AD627EC10613 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				062CC768B06593B5D721AB1F42B8479E /* Pods */,
-				D40D2359FE1FC40EAB0D47D0ABD2BCE9 /* Products */,
-				A93E009E6DD270C1D89609B48BB58AB5 /* Targets Support Files */,
+				FB1AFFBF99A39009F2EF1E06C6E2BC2B /* Products */,
+				CCCC22C21CFDE3FC307BC5B51F072971 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		88C8DCBCB2A12C1E84BCD34F8BD09341 /* Support Files */ = {
+		8C84BA778F2354AD03F6FDD7D16A6C5C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B0D7A252CCD99FB8519A781A2EE4EBE3 /* Info.plist */,
-				8EAD30F315AB7317FC9188FA2CAE13E5 /* LFYTextInputFilter.modulemap */,
-				B9DEAE59F65F2805192F4E1627ADEEE8 /* LFYTextInputFilter.xcconfig */,
-				9B15B307F3743C34C77672CE75D86168 /* LFYTextInputFilter-dummy.m */,
-				6BA72F48A44120A3D326927321C96769 /* LFYTextInputFilter-prefix.pch */,
-				B563C084737F37DEE6A9C57AC68B4940 /* LFYTextInputFilter-umbrella.h */,
+				C866ABDBA55AC2FF7D99BF153D5F8DA8 /* IQKeyboardManager.xcconfig */,
+				E97D1C6C67F809A47770008D0E5BABF3 /* IQKeyboardManager-dummy.m */,
+				5FE64C4A71EE7128D9540158D1CAA588 /* IQKeyboardManager-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LFYTextInputFilter";
+			path = "../Target Support Files/IQKeyboardManager";
 			sourceTree = "<group>";
 		};
-		911CEADC2D4F7E8478154B37A0172D97 /* Pod */ = {
+		8E5F74CCED63274D068BFA49DC4C2321 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				17D92240C89D24ADC6F8B5DEE548E640 /* LFYTextInputFilter.podspec */,
-				C91921E194160B8D19D2C609A4145A76 /* LICENSE */,
-				9A725AFA4C998C349FB6CC3F58B076A1 /* README.md */,
+				2F4059B54ED2A1525F1A8B44A2B65619 /* IQKeyboardManager.bundle */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		99447F099E84CE8FC543BBEDC55A96B4 /* Pods-LFYTextInputFilter_Tests */ = {
+		90FCE3D5F56538254075641750C7BD75 /* Pods-LFYTextInputFilter_Example */ = {
 			isa = PBXGroup;
 			children = (
-				0DF5A75E48CB3E334D74A34293B5187E /* Info.plist */,
-				7EE03F6822609CDD6EB126A152805A89 /* Pods-LFYTextInputFilter_Tests.modulemap */,
-				621039BC274B3736A0D7E55392ABA9ED /* Pods-LFYTextInputFilter_Tests-acknowledgements.markdown */,
-				2EE83FD6769A161EBA3A5AF877EDF0BA /* Pods-LFYTextInputFilter_Tests-acknowledgements.plist */,
-				B8D99B6C173C9F85796D5D8A152F13A6 /* Pods-LFYTextInputFilter_Tests-dummy.m */,
-				7184BC43D344F78713BCBF7B2B516FBE /* Pods-LFYTextInputFilter_Tests-frameworks.sh */,
-				36756B000AA393DD72C5C37C422E3A7B /* Pods-LFYTextInputFilter_Tests-resources.sh */,
-				F05316ED6C13A2841C1D08C96CC9CFDC /* Pods-LFYTextInputFilter_Tests-umbrella.h */,
-				74CF7EB529595B9527DDEE88C4035E74 /* Pods-LFYTextInputFilter_Tests.debug.xcconfig */,
-				891D72A427EB65B0C89747DD9236F15C /* Pods-LFYTextInputFilter_Tests.release.xcconfig */,
+				BDA13C93A975A45E289B6B1F841349D4 /* Pods-LFYTextInputFilter_Example-acknowledgements.markdown */,
+				5F72F9862B8844737A97934E440B5EA5 /* Pods-LFYTextInputFilter_Example-acknowledgements.plist */,
+				49442859F967EB7FFCB2BF526468C6B5 /* Pods-LFYTextInputFilter_Example-dummy.m */,
+				BE043A653D1C082791AEAB4E2938A548 /* Pods-LFYTextInputFilter_Example-frameworks.sh */,
+				3628C8CC3F9ABD257B5E39D249CEB9C7 /* Pods-LFYTextInputFilter_Example-resources.sh */,
+				D63904ED4A3B7C94D202D3D63FF79A30 /* Pods-LFYTextInputFilter_Example.debug.xcconfig */,
+				6E8AD24A8AB69105096D00BC3836489A /* Pods-LFYTextInputFilter_Example.release.xcconfig */,
 			);
-			name = "Pods-LFYTextInputFilter_Tests";
-			path = "Target Support Files/Pods-LFYTextInputFilter_Tests";
+			name = "Pods-LFYTextInputFilter_Example";
+			path = "Target Support Files/Pods-LFYTextInputFilter_Example";
 			sourceTree = "<group>";
 		};
-		A93E009E6DD270C1D89609B48BB58AB5 /* Targets Support Files */ = {
+		948602AC39B2059F6046F13D707A8372 /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
-				65B4AB64D2E344DFAFD9FEB075AA6085 /* Pods-LFYTextInputFilter_Example */,
-				99447F099E84CE8FC543BBEDC55A96B4 /* Pods-LFYTextInputFilter_Tests */,
+				EA26082C84CFC125EDF17D7A2CEAE18D /* IQBarButtonItem.h */,
+				C8FADAE13DAB2AE8E6A20545984D9EFF /* IQBarButtonItem.m */,
+				73A8280BB3EF0373E144D7D08A87A999 /* IQKeyboardManager.h */,
+				8A6D4EA96CBFF29DABC3B94A40BC6610 /* IQKeyboardManager.m */,
+				FB18CC209D5291106F13C5438D3053A4 /* IQKeyboardManagerConstants.h */,
+				67F7911C40C98F6B1A739B527B0A2906 /* IQKeyboardManagerConstantsInternal.h */,
+				F32721DF7298C60439A5C4DD2552B639 /* IQKeyboardReturnKeyHandler.h */,
+				542770B61503B2C79A4978DE34193198 /* IQKeyboardReturnKeyHandler.m */,
+				DB56EEA25055C254736AEE54221533E5 /* IQNSArray+Sort.h */,
+				13FF154FAA46DC42A3CB3EAF0EA867CB /* IQNSArray+Sort.m */,
+				F465B8B0E103106C4ED52BED54CFEA0D /* IQPreviousNextView.h */,
+				E17E0D5314ADF56809F59DC2D9D2DDF3 /* IQPreviousNextView.m */,
+				0917B845FCE0F2A7E6AF2A5D3B2D1ED3 /* IQTextView.h */,
+				CEE19730149604FD173EFAA9BA486AA6 /* IQTextView.m */,
+				5E3F37D9CD334CE40823000E28F47B8C /* IQTitleBarButtonItem.h */,
+				1702301B4689D2D81793E2D14480C8ED /* IQTitleBarButtonItem.m */,
+				817C1B3516E95A15B9B2FF66F7470116 /* IQToolbar.h */,
+				11BDEFA10D674F8DF027FECEBBEBE8EB /* IQToolbar.m */,
+				CA793A1683E5FDC75B045B4415CB8C93 /* IQUIScrollView+Additions.h */,
+				6245589D61A94EB4F0C2CAAD7C204876 /* IQUIScrollView+Additions.m */,
+				091324CEF344D4CC8A41B56F95BCAB1B /* IQUITextFieldView+Additions.h */,
+				6C980F2EC6EF871E510D114947E46B85 /* IQUITextFieldView+Additions.m */,
+				1A9A0D63D5BD2617E62CDD3706B46360 /* IQUIView+Hierarchy.h */,
+				13EE5CF34E62B8738D5052933C2FF112 /* IQUIView+Hierarchy.m */,
+				423A65FB8FB57671B10CE003E6E51E0C /* IQUIView+IQKeyboardToolbar.h */,
+				A28C1D494D02FDB09D99EED248DFC031 /* IQUIView+IQKeyboardToolbar.m */,
+				493C8CBA32A238C67FC19D0289F74876 /* IQUIViewController+Additions.h */,
+				18614F1646681919505FF631D062684A /* IQUIViewController+Additions.m */,
+				8E5F74CCED63274D068BFA49DC4C2321 /* Resources */,
+				8C84BA778F2354AD03F6FDD7D16A6C5C /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
-		B0D75A486EC89AB379CC88B0F3A81639 /* Category */ = {
+		B22441696735BFD5803AC2631A702621 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				4DCD17F5769FEAB94DC865079BABD206 /* NSString+LFYFilter.h */,
-				CDF1B0578B57B79EC1B4A28CA485A80C /* NSString+LFYFilter.m */,
-				0FDCD1FAC969A3FE35F0F31115E44B60 /* UITextField+LFYFilter.h */,
-				3348FD52374DBC4793477B194AC71ACE /* UITextField+LFYFilter.m */,
+				386085DFF026EC60A0153A08CB45886F /* NSString+LFYFilter.h */,
+				D6F9E478EE6E132AB50430CA88692DCE /* NSString+LFYFilter.m */,
+				2593DE4840E04AE8E706ED1FB4D46DC1 /* UITextField+LFYFilter.h */,
+				882DB2923D2657B325C0E99E0A94190F /* UITextField+LFYFilter.m */,
 			);
 			name = Category;
 			path = LFYTextInputFilter/Classes/Category;
@@ -380,193 +377,142 @@
 		B4063A44237FBD8F7015AD627EC10613 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB1F9EEDAA6EB0659DBBED682B35AB9E /* LFYTextInputFilter */,
+				B976BA45FF2ABDC659D74B0689ABF28E /* LFYTextInputFilter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		CB1F9EEDAA6EB0659DBBED682B35AB9E /* LFYTextInputFilter */ = {
+		B976BA45FF2ABDC659D74B0689ABF28E /* LFYTextInputFilter */ = {
 			isa = PBXGroup;
 			children = (
-				659A9B12D031CD3562C1550E94605B9E /* LFYTextInputFilter.h */,
-				B0D75A486EC89AB379CC88B0F3A81639 /* Category */,
-				911CEADC2D4F7E8478154B37A0172D97 /* Pod */,
-				611C4C5F5E2067B44FB7B1BC33C20064 /* Strategy */,
-				88C8DCBCB2A12C1E84BCD34F8BD09341 /* Support Files */,
+				689D21DE255B9697BC6DEB01C95DEFB8 /* LFYTextInputFilter.h */,
+				B22441696735BFD5803AC2631A702621 /* Category */,
+				250D9579744876CD6262054EB94AF1FA /* Pod */,
+				787BFF2D4E0190DBF0E670105E6891F8 /* Strategy */,
+				FD51694FC09968F343B8D2CEB947CA2A /* Support Files */,
 			);
 			name = LFYTextInputFilter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D40D2359FE1FC40EAB0D47D0ABD2BCE9 /* Products */ = {
+		CCCC22C21CFDE3FC307BC5B51F072971 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				10CF6FE5D744A556BDB8AED51304368E /* IQKeyboardManager.framework */,
-				E13E6F059BEC3415BDB5F2E226599C39 /* LFYTextInputFilter.framework */,
-				FB50476F96210D15857DE004BE36F473 /* Pods_LFYTextInputFilter_Example.framework */,
-				357B2520E3B91557CAEB1C329A589F93 /* Pods_LFYTextInputFilter_Tests.framework */,
+				90FCE3D5F56538254075641750C7BD75 /* Pods-LFYTextInputFilter_Example */,
+				17A455F8EC7BF9973DD0EBAA8E44F4AB /* Pods-LFYTextInputFilter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB1AFFBF99A39009F2EF1E06C6E2BC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2443199DCE30D5514FFE5489668D94A /* libIQKeyboardManager.a */,
+				2D67C04D93F461AE901476A9936D649B /* libLFYTextInputFilter.a */,
+				836BC20DA76EEB823F545A9A977B9526 /* libPods-LFYTextInputFilter_Example.a */,
+				323CBEA7C7A4C494F424C15F26A25C7F /* libPods-LFYTextInputFilter_Tests.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DBCBCCE13A6A4DFA7A8646891F0C08AB /* Support Files */ = {
+		FD51694FC09968F343B8D2CEB947CA2A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0AE8805370BD77371FCE647C331893A8 /* Info.plist */,
-				C79F21A9B627F428D9FBBF486C1CEF8D /* IQKeyboardManager.modulemap */,
-				ADD19F351401958A5DBAAA341588BE05 /* IQKeyboardManager.xcconfig */,
-				214B968DDAA7EB98CE63C68BAA4D98B6 /* IQKeyboardManager-dummy.m */,
-				F524955B676323532C56D0A08FDB7C5C /* IQKeyboardManager-prefix.pch */,
-				373AC1E345C1810CA51FE559BB170525 /* IQKeyboardManager-umbrella.h */,
+				0DD9FC8EA4E9051D3FEDAA147A2FBE61 /* LFYTextInputFilter.xcconfig */,
+				00CCF2C461731284A6F3DBD29343AF07 /* LFYTextInputFilter-dummy.m */,
+				C79BC9C9ABA53D51ACF6F6B923EB133E /* LFYTextInputFilter-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/IQKeyboardManager";
-			sourceTree = "<group>";
-		};
-		DCA65D9B3B9F22D18156605600A68A5F /* IQKeyboardManager */ = {
-			isa = PBXGroup;
-			children = (
-				3F51876D791D30CD209AD4183E3F8A7F /* IQBarButtonItem.h */,
-				7342E6D61C5FA911A8B58E8BADE06BAA /* IQBarButtonItem.m */,
-				BC45EB15EC15D0CCE7353B66AE975C66 /* IQKeyboardManager.h */,
-				00686DDAEBFD6361467EA5B8CE55B5BA /* IQKeyboardManager.m */,
-				136923C8F91E73D8136864372EC5DD97 /* IQKeyboardManagerConstants.h */,
-				328853FB7A45D007050F845B127F2584 /* IQKeyboardManagerConstantsInternal.h */,
-				B6DCA64298D89F328E3C527FC7BE7E48 /* IQKeyboardReturnKeyHandler.h */,
-				61EC4234029D588DE3A764DAC9082D27 /* IQKeyboardReturnKeyHandler.m */,
-				861BCD1B7519CAECE261202152D0E700 /* IQNSArray+Sort.h */,
-				6FF21EE6BF20BABBADCC43D42A603A7D /* IQNSArray+Sort.m */,
-				DD62546AD2BDC266B419E9BF5CB32898 /* IQPreviousNextView.h */,
-				666B09C94E6B33BAFB522027BE5D3ADB /* IQPreviousNextView.m */,
-				F29060BEED8778F2E4D2437E2EEDC4F9 /* IQTextView.h */,
-				755CBE70B31E70191C9796D878A85297 /* IQTextView.m */,
-				90E733DC9EB515FE03AB569375F2843B /* IQTitleBarButtonItem.h */,
-				F5DC4F7FCC2BAF87B0A66AFCCFC8291D /* IQTitleBarButtonItem.m */,
-				E5E6965E52156F7A9A1D09FE6B8B3ADC /* IQToolbar.h */,
-				E9FABA630FD313987449B9F4537D06AA /* IQToolbar.m */,
-				220B4F2821CD30A8FBDAF2E31E6F5778 /* IQUIScrollView+Additions.h */,
-				36A3686372A00E4108601F98FB391949 /* IQUIScrollView+Additions.m */,
-				BD5CB1651B92C8C21380ACF30D32A33F /* IQUITextFieldView+Additions.h */,
-				F11CFDC29096027FAE24748300C6908C /* IQUITextFieldView+Additions.m */,
-				8760A629D307F77698B85866FEF5B481 /* IQUIView+Hierarchy.h */,
-				7BC898D5CD6464BFFB6C484FD827B739 /* IQUIView+Hierarchy.m */,
-				E7409D2B31B6023C5A0EB172F2626172 /* IQUIView+IQKeyboardToolbar.h */,
-				2CEAD0D790DD752734EA843CB9284BEA /* IQUIView+IQKeyboardToolbar.m */,
-				B3CE95A9B11DCFD78DC8FD72E8A402F7 /* IQUIViewController+Additions.h */,
-				C3C7936243FF65D2FC44902E6DEDC1FB /* IQUIViewController+Additions.m */,
-				542CA6DDB2055226CB960DB40373941B /* Resources */,
-				DBCBCCE13A6A4DFA7A8646891F0C08AB /* Support Files */,
-			);
-			name = IQKeyboardManager;
-			path = IQKeyboardManager;
+			path = "Example/Pods/Target Support Files/LFYTextInputFilter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03AB14DB0235B494910320324F3BF2C2 /* Headers */ = {
+		A043127A441933984A0BBF7DAA972FF6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0648973667FB537BDC3ABFA9F3AD2ED8 /* IQBarButtonItem.h in Headers */,
-				85F02B2E2F922F439A12C7CBB077E8DE /* IQKeyboardManager-umbrella.h in Headers */,
-				14479278EA90F38247811468ADD8EBB7 /* IQKeyboardManager.h in Headers */,
-				C49ED0BA3BE26C50F202C5ED5FB85573 /* IQKeyboardManagerConstants.h in Headers */,
-				B21C3C93DAA23B1C331B9326991CDCFC /* IQKeyboardManagerConstantsInternal.h in Headers */,
-				3619E77A8EC11571EE9F32921DAC0C89 /* IQKeyboardReturnKeyHandler.h in Headers */,
-				688E0882DFC8CABA02390F43178CB33F /* IQNSArray+Sort.h in Headers */,
-				CF4EB3350726A86BCCDF5F363C5FCE72 /* IQPreviousNextView.h in Headers */,
-				AAC6DB8270C474C50F5D71DE9BC73382 /* IQTextView.h in Headers */,
-				99249B44D65716B5CCA0BFFD5F83062C /* IQTitleBarButtonItem.h in Headers */,
-				7CF3668C8E30DA3CAB92C9C6A8B88B8F /* IQToolbar.h in Headers */,
-				06FF2586AE76FBBCBF8171F98255D8CB /* IQUIScrollView+Additions.h in Headers */,
-				B05BDA89A18DA866355AD804B694F851 /* IQUITextFieldView+Additions.h in Headers */,
-				63F5BA839B931DB6605554B6D4369A0C /* IQUIView+Hierarchy.h in Headers */,
-				639A86F8EDAF569092C61103FFAEA21D /* IQUIView+IQKeyboardToolbar.h in Headers */,
-				13D87E1D99CFD98771E8066E6FF832CD /* IQUIViewController+Additions.h in Headers */,
+				D865F1299909BDA5029ACA535789B510 /* IQBarButtonItem.h in Headers */,
+				9DADA771D05EF0C45355B6544AFB5C16 /* IQKeyboardManager.h in Headers */,
+				5ECB3B4EE63B35693244DC8E476272AF /* IQKeyboardManagerConstants.h in Headers */,
+				D8188D3ADB1BB024A8798BBED5593B5E /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				13AA97B9D9B0E943554B3513A9273385 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				E32307F2F563511737FCD523E9C4D391 /* IQNSArray+Sort.h in Headers */,
+				8E05402B04BC0FE6DE6998C8288F559B /* IQPreviousNextView.h in Headers */,
+				66E3164519B5436903757501E2982E3E /* IQTextView.h in Headers */,
+				C4720488CC6D5D454BE0C1AEF554B337 /* IQTitleBarButtonItem.h in Headers */,
+				63391430C243A5D8449DFC2F945455A3 /* IQToolbar.h in Headers */,
+				2474C980446D6CBCE6CCD23A0ED889E1 /* IQUIScrollView+Additions.h in Headers */,
+				BFE44435DE67E992BC197AA192C1DA88 /* IQUITextFieldView+Additions.h in Headers */,
+				D49FF46F3D5BA6EFE0E4A12AF1B8E9A9 /* IQUIView+Hierarchy.h in Headers */,
+				3FBFF015B78FCB610A10AC30E979D239 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				73F8A20273DDD2758D6E74523CD46C9A /* IQUIViewController+Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		463F56356A22ED08356684AA0D16942E /* Headers */ = {
+		E222117F76E206156406D6EADBDE8CF7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A3767A5107540300BE0B9088670DEDA /* Pods-LFYTextInputFilter_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5983CCFBCD5705F3B8CC052883050272 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABD1EBA2D8EB64D90FE881B635BCA453 /* LFYTextInputFilter-umbrella.h in Headers */,
-				5EC8FB6419F52277825934B23B640F23 /* LFYTextInputFilter.h in Headers */,
-				FDCAA4A17C0D1E5874AD54500432DF6B /* NSString+LFYFilter.h in Headers */,
-				69005BCFF52F5F22D32E17B92FEF46C1 /* UITextField+LFYFilter.h in Headers */,
-				D24E5780E9DD6FC8BFECAE1FD403B45B /* XQSBaseValidStrategy.h in Headers */,
-				CCBA591B6033609740E11E078A522729 /* XQSNameValidStrategy.h in Headers */,
-				3218FF8B6E2FB489BC2372CACB0030E2 /* XQSNumberValidStrategy.h in Headers */,
-				AA08C68B8CA527D24852E09B26C8EFA9 /* XQSPasswordValidStrategy.h in Headers */,
-				F0F8E3864873A6BEECE806575854880A /* XQSPowerfullStrategy.h in Headers */,
-				E8B186831858036F0D393EE72BF11D59 /* XQSStrategyMaker.h in Headers */,
-				B48F85490DD7A636AAD7C2038A363430 /* XQSTextInputPrivate.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98ED3B2745B581A14055858B3D282D6D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				667A1E1F4A80AA802274806E933ECD70 /* Pods-LFYTextInputFilter_Tests-umbrella.h in Headers */,
+				B5BA5AC684D82F9098D26D4E30E99DF0 /* LFYTextInputFilter.h in Headers */,
+				E3B45941B3C0C3FD5396F4AED2B1A982 /* NSString+LFYFilter.h in Headers */,
+				501D6D37322ACE2558B60583429F9CB1 /* UITextField+LFYFilter.h in Headers */,
+				21157F381F3FB808295C363BE6F135B8 /* XQSBaseValidStrategy.h in Headers */,
+				5279E7AAEADE894E8BC20A5586F253CB /* XQSNameValidStrategy.h in Headers */,
+				3942FC914493ED296D7DE093BA3B337A /* XQSNumberValidStrategy.h in Headers */,
+				8D75F5D62CD9501E5CBD323FFDA71A46 /* XQSPasswordValidStrategy.h in Headers */,
+				C2C91DA3D69E3E231DB00F9872A99A28 /* XQSPowerfullStrategy.h in Headers */,
+				8156D70A1CD5169C43B210A660821FE1 /* XQSStrategyMaker.h in Headers */,
+				087CB4E8A94B6FABB17107515B8FA29C /* XQSTextInputPrivate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2FC10628D6C513D0E1D13AC04BC1212C /* LFYTextInputFilter */ = {
+		5B8C35B2634F1F0CD9BA7056902EB696 /* Pods-LFYTextInputFilter_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 864F67A32DBFA3A6F2C4D09A97359958 /* Build configuration list for PBXNativeTarget "LFYTextInputFilter" */;
+			buildConfigurationList = 299874FEE45258BA73C1309DCF4F2B4A /* Build configuration list for PBXNativeTarget "Pods-LFYTextInputFilter_Example" */;
 			buildPhases = (
-				E19EB09D78F2AC7C788545FC635BC90E /* Sources */,
-				FAEE3AE74A29C5DC1B7AE6DDDDEBE332 /* Frameworks */,
-				5983CCFBCD5705F3B8CC052883050272 /* Headers */,
+				76253C5E92B466B9C26BA1953CEE5D28 /* Sources */,
+				472E76432AEB09AA8CC6266630B068D7 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B62245CD5C0EAE9EA826F50C1EE44FB1 /* PBXTargetDependency */,
+				47AD309FCCADD852EEB7A3419A1FE1C3 /* PBXTargetDependency */,
 			);
-			name = LFYTextInputFilter;
-			productName = LFYTextInputFilter;
-			productReference = E13E6F059BEC3415BDB5F2E226599C39 /* LFYTextInputFilter.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "Pods-LFYTextInputFilter_Example";
+			productName = "Pods-LFYTextInputFilter_Example";
+			productReference = 836BC20DA76EEB823F545A9A977B9526 /* libPods-LFYTextInputFilter_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		472C9E47A63B877F4779047FA39F8536 /* Pods-LFYTextInputFilter_Tests */ = {
+		AC180D52B5F3AE5F6C73615899E91AED /* Pods-LFYTextInputFilter_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9A6884D311E7395934DBCB04EF47F5F /* Build configuration list for PBXNativeTarget "Pods-LFYTextInputFilter_Tests" */;
+			buildConfigurationList = 8E862A3F5FD7307A9889EF30E374EB3C /* Build configuration list for PBXNativeTarget "Pods-LFYTextInputFilter_Tests" */;
 			buildPhases = (
-				367E1052FA4FD5BD3539600CF71FB3F4 /* Sources */,
-				70E6BA7CD5182E217490911EBE6168F7 /* Frameworks */,
-				98ED3B2745B581A14055858B3D282D6D /* Headers */,
+				CE3585C13C05C2E5EAF06CD1A7C8E70A /* Sources */,
+				30A11DB98A9A393F4132A93317EE87B2 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				035A6B44195D1538A95BA49F7124B72F /* PBXTargetDependency */,
+				1DF3E48EEC92BFB1AA15E457B1956DE0 /* PBXTargetDependency */,
 			);
 			name = "Pods-LFYTextInputFilter_Tests";
 			productName = "Pods-LFYTextInputFilter_Tests";
-			productReference = 357B2520E3B91557CAEB1C329A589F93 /* Pods_LFYTextInputFilter_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 323CBEA7C7A4C494F424C15F26A25C7F /* libPods-LFYTextInputFilter_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		D55833EC3DE9EBD9B329CAEB983D5A9D /* IQKeyboardManager */ = {
+		D6FBFDBC00B388471F2914F736751944 /* IQKeyboardManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22A2379BF2B87BFC7BA495F9BD85DD28 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildConfigurationList = A2F5879A321802D045C28B34510AF137 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
 			buildPhases = (
-				EF7C3A296212CFB87AC9B8A7939E3733 /* Sources */,
-				8944C0B131AF550CF6CC8073435E22F2 /* Frameworks */,
-				03AB14DB0235B494910320324F3BF2C2 /* Headers */,
-				2E730D5A406D8720DD8830A43109145D /* Resources */,
+				6A8BDB7FEF8B27DE632778849F68E02D /* Sources */,
+				A4817342F231FCE9EA7AEB5EDB33362B /* Frameworks */,
+				A043127A441933984A0BBF7DAA972FF6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -574,27 +520,25 @@
 			);
 			name = IQKeyboardManager;
 			productName = IQKeyboardManager;
-			productReference = 10CF6FE5D744A556BDB8AED51304368E /* IQKeyboardManager.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = A2443199DCE30D5514FFE5489668D94A /* libIQKeyboardManager.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		D76DA51856F1F4D5E70B44CADA60B679 /* Pods-LFYTextInputFilter_Example */ = {
+		DF27AC0206B47AE99A52D18B7BFB3A3C /* LFYTextInputFilter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3284D1E2BA57D3CC8A3BAD9FAE0A88F /* Build configuration list for PBXNativeTarget "Pods-LFYTextInputFilter_Example" */;
+			buildConfigurationList = 03562D28EAF2B0E886C12886004F7665 /* Build configuration list for PBXNativeTarget "LFYTextInputFilter" */;
 			buildPhases = (
-				907AF4DF2598F4AF1905EC3F01417704 /* Sources */,
-				D89054F86B2E768B5651DE8CE4523036 /* Frameworks */,
-				463F56356A22ED08356684AA0D16942E /* Headers */,
+				060841822015681D95478BE02F9A18ED /* Sources */,
+				43417A54869962D0176D0AF9A703CC07 /* Frameworks */,
+				E222117F76E206156406D6EADBDE8CF7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E3E8C1D0D90FEBA469A630BF811169D1 /* PBXTargetDependency */,
-				8583183BB1C902BB232857F1B0EF7C1B /* PBXTargetDependency */,
 			);
-			name = "Pods-LFYTextInputFilter_Example";
-			productName = "Pods-LFYTextInputFilter_Example";
-			productReference = FB50476F96210D15857DE004BE36F473 /* Pods_LFYTextInputFilter_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			name = LFYTextInputFilter;
+			productName = LFYTextInputFilter;
+			productReference = 2D67C04D93F461AE901476A9936D649B /* libLFYTextInputFilter.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -613,140 +557,232 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D40D2359FE1FC40EAB0D47D0ABD2BCE9 /* Products */;
+			productRefGroup = FB1AFFBF99A39009F2EF1E06C6E2BC2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D55833EC3DE9EBD9B329CAEB983D5A9D /* IQKeyboardManager */,
-				2FC10628D6C513D0E1D13AC04BC1212C /* LFYTextInputFilter */,
-				D76DA51856F1F4D5E70B44CADA60B679 /* Pods-LFYTextInputFilter_Example */,
-				472C9E47A63B877F4779047FA39F8536 /* Pods-LFYTextInputFilter_Tests */,
+				D6FBFDBC00B388471F2914F736751944 /* IQKeyboardManager */,
+				DF27AC0206B47AE99A52D18B7BFB3A3C /* LFYTextInputFilter */,
+				5B8C35B2634F1F0CD9BA7056902EB696 /* Pods-LFYTextInputFilter_Example */,
+				AC180D52B5F3AE5F6C73615899E91AED /* Pods-LFYTextInputFilter_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		2E730D5A406D8720DD8830A43109145D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				788BA72F67004504FFDFC670048786B5 /* IQKeyboardManager.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		367E1052FA4FD5BD3539600CF71FB3F4 /* Sources */ = {
+		060841822015681D95478BE02F9A18ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A19D3846362929EBD92D715A44FBBCF /* Pods-LFYTextInputFilter_Tests-dummy.m in Sources */,
+				DCA6AAF5B646E9D1C5AC158CBD0075EC /* LFYTextInputFilter-dummy.m in Sources */,
+				A3D12FA5315D94C10510531DF2383623 /* NSString+LFYFilter.m in Sources */,
+				89F338A3ACF2BD3827725AAB49F06AD4 /* UITextField+LFYFilter.m in Sources */,
+				D538FA0D5ADCFECD3EEECE1B4FF95AF3 /* XQSBaseValidStrategy.m in Sources */,
+				ED289561D3704FA1D7428FA4D43DE9B7 /* XQSNameValidStrategy.m in Sources */,
+				327AD8070ED8C782F919E8F1147B0F46 /* XQSNumberValidStrategy.m in Sources */,
+				FB7EA49DE67406F79794A9A2C63DE699 /* XQSPasswordValidStrategy.m in Sources */,
+				5484A8B2BB6B33DFC58C4C7AB8871F8F /* XQSPowerfullStrategy.m in Sources */,
+				F0E7B4BB658AB4DD61B54C3B0BE20A68 /* XQSStrategyMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907AF4DF2598F4AF1905EC3F01417704 /* Sources */ = {
+		6A8BDB7FEF8B27DE632778849F68E02D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CFB7E40C6DD927BE44ACDB001A65622 /* Pods-LFYTextInputFilter_Example-dummy.m in Sources */,
+				C493AB53C8DA1397EB043353081690EE /* IQBarButtonItem.m in Sources */,
+				352427C52DC4C93B0718498D19FFD696 /* IQKeyboardManager-dummy.m in Sources */,
+				1AE740CA9DD11A1C662E179F881A7386 /* IQKeyboardManager.m in Sources */,
+				B3954BD0A3F350EDB5DC9B7E895C824B /* IQKeyboardReturnKeyHandler.m in Sources */,
+				C0880FB8A5FEBD18937924CB981C5EAB /* IQNSArray+Sort.m in Sources */,
+				E07F7C51868A67DD151C337E6F2EA6D6 /* IQPreviousNextView.m in Sources */,
+				F49C9CDB089E8335E0C6593F945E98CE /* IQTextView.m in Sources */,
+				2DA0795313E480A80A5A90BB1E9BDDB8 /* IQTitleBarButtonItem.m in Sources */,
+				739ADAF7569E923F69FBF5332A72B036 /* IQToolbar.m in Sources */,
+				EF23ED9F9BE7443E830973846D7F3480 /* IQUIScrollView+Additions.m in Sources */,
+				7F4B3DFF3848E512F7FCFA7B76DA2A9F /* IQUITextFieldView+Additions.m in Sources */,
+				F4E37076158983951363B96E4B63D776 /* IQUIView+Hierarchy.m in Sources */,
+				E74C2BD17215F2B2257B1444C32784BA /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				0CD6A958B421C84959F921143E7662FF /* IQUIViewController+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E19EB09D78F2AC7C788545FC635BC90E /* Sources */ = {
+		76253C5E92B466B9C26BA1953CEE5D28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6A51A23D29135E787562A0EB587B79 /* LFYTextInputFilter-dummy.m in Sources */,
-				6E56D9A3B1B45C99E816F7D7351384E0 /* NSString+LFYFilter.m in Sources */,
-				AF4B7D9749284C3E349048702C6071DA /* UITextField+LFYFilter.m in Sources */,
-				AA2BA2A1C942769FA6F473970C894676 /* XQSBaseValidStrategy.m in Sources */,
-				8E867FF780810F7EF965E001083CB8FB /* XQSNameValidStrategy.m in Sources */,
-				7BC348737B46DF7B3EFB092E48BDAA23 /* XQSNumberValidStrategy.m in Sources */,
-				1F3368364524BA8374E765A8105FE50C /* XQSPasswordValidStrategy.m in Sources */,
-				73CC595A3ED26AE9C58D0B3160DC2A90 /* XQSPowerfullStrategy.m in Sources */,
-				921754D100198C0A8133B5470ACDBF68 /* XQSStrategyMaker.m in Sources */,
+				CC89A055D3C5F9283106BC8A5DAC4FDC /* Pods-LFYTextInputFilter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF7C3A296212CFB87AC9B8A7939E3733 /* Sources */ = {
+		CE3585C13C05C2E5EAF06CD1A7C8E70A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DB2E34289D18AA9810609ADCCBFA181 /* IQBarButtonItem.m in Sources */,
-				A3CE2D718CEB5AC059823178404AF0EF /* IQKeyboardManager-dummy.m in Sources */,
-				2D407C6492BC569F5361B9210C89A19C /* IQKeyboardManager.m in Sources */,
-				E802560B425A04296159872675948D29 /* IQKeyboardReturnKeyHandler.m in Sources */,
-				7C49A18841060D12A58F92CE62C21F9D /* IQNSArray+Sort.m in Sources */,
-				C2B7F4EB405C401EA53023341C05E15E /* IQPreviousNextView.m in Sources */,
-				72EE4A5DC3076CD8C13717D4DAA37DFD /* IQTextView.m in Sources */,
-				958FEEE31215AB970371D4CBAEB8A4DC /* IQTitleBarButtonItem.m in Sources */,
-				CA1E205A4D3A8515ED42F76C2671F1BA /* IQToolbar.m in Sources */,
-				431C76067CB09B1FC0E4DD5AEA6B540A /* IQUIScrollView+Additions.m in Sources */,
-				665B3B037B98D3E3ADB449A43FF14F42 /* IQUITextFieldView+Additions.m in Sources */,
-				DEB92E2DB086E554AEA1DBFA8A9F00D0 /* IQUIView+Hierarchy.m in Sources */,
-				C4AA57B938513DE614A7B90AEF5CD858 /* IQUIView+IQKeyboardToolbar.m in Sources */,
-				C480AC5D32406D4901116FCAC5FB0EB5 /* IQUIViewController+Additions.m in Sources */,
+				35C5F0053B64D7548D95CDF7E7EBFC85 /* Pods-LFYTextInputFilter_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		035A6B44195D1538A95BA49F7124B72F /* PBXTargetDependency */ = {
+		1DF3E48EEC92BFB1AA15E457B1956DE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LFYTextInputFilter_Example";
-			target = D76DA51856F1F4D5E70B44CADA60B679 /* Pods-LFYTextInputFilter_Example */;
-			targetProxy = 573755459B287188D1F860CF69829752 /* PBXContainerItemProxy */;
+			target = 5B8C35B2634F1F0CD9BA7056902EB696 /* Pods-LFYTextInputFilter_Example */;
+			targetProxy = F8053AC15F13CD524287AABF665AD1D1 /* PBXContainerItemProxy */;
 		};
-		8583183BB1C902BB232857F1B0EF7C1B /* PBXTargetDependency */ = {
+		47AD309FCCADD852EEB7A3419A1FE1C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LFYTextInputFilter;
-			target = 2FC10628D6C513D0E1D13AC04BC1212C /* LFYTextInputFilter */;
-			targetProxy = A750FC7FCEB89B7A45A552E533BE6FAA /* PBXContainerItemProxy */;
+			target = DF27AC0206B47AE99A52D18B7BFB3A3C /* LFYTextInputFilter */;
+			targetProxy = 2D6F0ADE6AA9D35A57E1767E2116076C /* PBXContainerItemProxy */;
 		};
-		E3E8C1D0D90FEBA469A630BF811169D1 /* PBXTargetDependency */ = {
+		B62245CD5C0EAE9EA826F50C1EE44FB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManager;
-			target = D55833EC3DE9EBD9B329CAEB983D5A9D /* IQKeyboardManager */;
-			targetProxy = C4122263075A4304391C7DBB9836F14B /* PBXContainerItemProxy */;
+			target = D6FBFDBC00B388471F2914F736751944 /* IQKeyboardManager */;
+			targetProxy = 0973520066B595C0DD597BFC2E6DC94D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3EDAC547F77C945474E042FE9E5886B4 /* Release */ = {
+		06CCF9B6CD0EB42345CED73BD016E902 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 891D72A427EB65B0C89747DD9236F15C /* Pods-LFYTextInputFilter_Tests.release.xcconfig */;
+			baseConfigurationReference = B3673BD7A4CD10A150D4DA01A012C532 /* Pods-LFYTextInputFilter_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LFYTextInputFilter_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LFYTextInputFilter_Tests/Pods-LFYTextInputFilter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		096735E02D4D503AA68CDEB6130FE58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C866ABDBA55AC2FF7D99BF153D5F8DA8 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1752AED45DB90F195CC6552D8F206AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C866ABDBA55AC2FF7D99BF153D5F8DA8 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D29D3A3F53B4953E034C06308F28CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD9FC8EA4E9051D3FEDAA147A2FBE61 /* LFYTextInputFilter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LFYTextInputFilter/LFYTextInputFilter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LFYTextInputFilter;
+				PRODUCT_NAME = LFYTextInputFilter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F057FE1F3838D38E2004150ED3055B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD9FC8EA4E9051D3FEDAA147A2FBE61 /* LFYTextInputFilter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LFYTextInputFilter/LFYTextInputFilter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LFYTextInputFilter;
+				PRODUCT_NAME = LFYTextInputFilter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D79785FCF4094664205207EB2DFF75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8E21E307F3C5C4D42646D658B14E9F /* Pods-LFYTextInputFilter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -811,36 +847,48 @@
 			};
 			name = Debug;
 		};
-		95590D1B8F5750186ECE9624D3C94F12 /* Release */ = {
+		9C99274EF5F15872C51BE4B70C97201D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9DEAE59F65F2805192F4E1627ADEEE8 /* LFYTextInputFilter.xcconfig */;
+			baseConfigurationReference = 6E8AD24A8AB69105096D00BC3836489A /* Pods-LFYTextInputFilter_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LFYTextInputFilter/LFYTextInputFilter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LFYTextInputFilter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LFYTextInputFilter/LFYTextInputFilter.modulemap";
-				PRODUCT_MODULE_NAME = LFYTextInputFilter;
-				PRODUCT_NAME = LFYTextInputFilter;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		B1C985033AB457B4706AB647A6E6FF1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63904ED4A3B7C94D202D3D63FF79A30 /* Pods-LFYTextInputFilter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -900,205 +948,23 @@
 			};
 			name = Release;
 		};
-		BE5A41428FF55585EBBA63385626BE59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A1C23FC0F74E6BCB8C44E644570A39D /* Pods-LFYTextInputFilter_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LFYTextInputFilter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LFYTextInputFilter_Example/Pods-LFYTextInputFilter_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BFB3A1B2F7D794548C34DB3E3C34E0BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58DB54CB89EEF3669B7F5D3E62C36A56 /* Pods-LFYTextInputFilter_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LFYTextInputFilter_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LFYTextInputFilter_Example/Pods-LFYTextInputFilter_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C31D4A60B85340BE5612ED03122BB05A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADD19F351401958A5DBAAA341588BE05 /* IQKeyboardManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
-				PRODUCT_MODULE_NAME = IQKeyboardManager;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D958D0B06505E793082732152F56DAB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADD19F351401958A5DBAAA341588BE05 /* IQKeyboardManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
-				PRODUCT_MODULE_NAME = IQKeyboardManager;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DD759D0B9024EA6BFAF060146193F587 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74CF7EB529595B9527DDEE88C4035E74 /* Pods-LFYTextInputFilter_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LFYTextInputFilter_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LFYTextInputFilter_Tests/Pods-LFYTextInputFilter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FAD803184029F5959DD61CAD74A1F601 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9DEAE59F65F2805192F4E1627ADEEE8 /* LFYTextInputFilter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LFYTextInputFilter/LFYTextInputFilter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LFYTextInputFilter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LFYTextInputFilter/LFYTextInputFilter.modulemap";
-				PRODUCT_MODULE_NAME = LFYTextInputFilter;
-				PRODUCT_NAME = LFYTextInputFilter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22A2379BF2B87BFC7BA495F9BD85DD28 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+		03562D28EAF2B0E886C12886004F7665 /* Build configuration list for PBXNativeTarget "LFYTextInputFilter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C31D4A60B85340BE5612ED03122BB05A /* Debug */,
-				D958D0B06505E793082732152F56DAB8 /* Release */,
+				1D29D3A3F53B4953E034C06308F28CBE /* Debug */,
+				3F057FE1F3838D38E2004150ED3055B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		299874FEE45258BA73C1309DCF4F2B4A /* Build configuration list for PBXNativeTarget "Pods-LFYTextInputFilter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C985033AB457B4706AB647A6E6FF1D /* Debug */,
+				9C99274EF5F15872C51BE4B70C97201D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1112,29 +978,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		864F67A32DBFA3A6F2C4D09A97359958 /* Build configuration list for PBXNativeTarget "LFYTextInputFilter" */ = {
+		8E862A3F5FD7307A9889EF30E374EB3C /* Build configuration list for PBXNativeTarget "Pods-LFYTextInputFilter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAD803184029F5959DD61CAD74A1F601 /* Debug */,
-				95590D1B8F5750186ECE9624D3C94F12 /* Release */,
+				7D79785FCF4094664205207EB2DFF75F /* Debug */,
+				06CCF9B6CD0EB42345CED73BD016E902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3284D1E2BA57D3CC8A3BAD9FAE0A88F /* Build configuration list for PBXNativeTarget "Pods-LFYTextInputFilter_Example" */ = {
+		A2F5879A321802D045C28B34510AF137 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB3A1B2F7D794548C34DB3E3C34E0BF /* Debug */,
-				BE5A41428FF55585EBBA63385626BE59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9A6884D311E7395934DBCB04EF47F5F /* Build configuration list for PBXNativeTarget "Pods-LFYTextInputFilter_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD759D0B9024EA6BFAF060146193F587 /* Debug */,
-				3EDAC547F77C945474E042FE9E5886B4 /* Release */,
+				1752AED45DB90F195CC6552D8F206AA5 /* Debug */,
+				096735E02D4D503AA68CDEB6130FE58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
