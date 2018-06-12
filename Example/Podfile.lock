@@ -1,0 +1,16 @@
+PODS:
+  - LFYTextInputFilter (0.1.0)
+
+DEPENDENCIES:
+  - LFYTextInputFilter (from `../`)
+
+EXTERNAL SOURCES:
+  LFYTextInputFilter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LFYTextInputFilter: ed41c064a194fdbcad381d59195427018f56276b
+
+PODFILE CHECKSUM: 33f97586ad385ea32f2875dc2e8a9bba24974647
+
+COCOAPODS: 1.5.3

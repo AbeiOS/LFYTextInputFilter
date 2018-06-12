@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LFYTextInputFilter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LFYTextInputFilter.'
+  s.summary          = 'A UITextField and UITextView Category can filter character'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'A 'UITextField' and 'UITextView' Category that can filter character, it filter you needn't character'
                        DESC
 
   s.homepage         = 'https://github.com/2805508788@qq.com/LFYTextInputFilter'

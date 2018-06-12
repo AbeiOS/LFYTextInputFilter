@@ -1,0 +1,22 @@
+{
+  "name": "LFYTextInputFilter",
+  "version": "0.1.0",
+  "summary": "A short description of LFYTextInputFilter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2805508788@qq.com/LFYTextInputFilter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2805508788@qq.com": "abei_os@126.com"
+  },
+  "source": {
+    "git": "https://github.com/2805508788@qq.com/LFYTextInputFilter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LFYTextInputFilter/Classes/**/*"
+}

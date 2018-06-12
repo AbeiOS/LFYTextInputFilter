@@ -1,0 +1,6 @@
+framework module LFYTextInputFilter {
+  umbrella header "LFYTextInputFilter-umbrella.h"
+
+  export *
+  module * { export * }
+}
