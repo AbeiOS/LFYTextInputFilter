@@ -22,7 +22,7 @@ pod 'LFYTextInputFilter'
 
 ## Author
 
-2805508788@qq.com, abei_os@126.com
+abei_os@126.com
 
 ## License
 
