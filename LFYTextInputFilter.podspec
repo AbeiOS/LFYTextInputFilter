@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LFYTextInputFilter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A UITextField and UITextView Category can filter character'
   s.description      = <<-DESC
   'A 'UITextField' and 'UITextView' Category that can filter character, it filter you needn't character'
