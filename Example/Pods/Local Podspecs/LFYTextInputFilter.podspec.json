@@ -1,9 +1,9 @@
 {
   "name": "LFYTextInputFilter",
   "version": "0.1.0",
-  "summary": "A short description of LFYTextInputFilter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/2805508788@qq.com/LFYTextInputFilter",
+  "summary": "A UITextField and UITextView Category can filter character",
+  "description": "'A 'UITextField' and 'UITextView' Category that can filter character, it filter you needn't character'",
+  "homepage": "https://github.com/AbeiOS/LFYTextInputFilter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "2805508788@qq.com": "abei_os@126.com"
   },
   "source": {
-    "git": "https://github.com/2805508788@qq.com/LFYTextInputFilter.git",
+    "git": "https://github.com/AbeiOS/LFYTextInputFilter.git",
     "tag": "0.1.0"
   },
   "platforms": {

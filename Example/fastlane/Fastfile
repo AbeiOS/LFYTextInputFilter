@@ -1,0 +1,71 @@
+
+desc '使用该航道，用于打标签并上传到私有 pod 仓库'
+lane :upload_spec do |options|
+
+  #索引名称
+  # kTargetName = options[:target]
+  kTargetName = 'LFYTextInputFilter'
+  #标签
+  kTagName    = options[:tag]
+  #提交信息
+  kMsg        = options[:msg]
+
+  kAllowWarnings  = true
+  kUseLibraries   = true
+
+  kGitRemote      = "https://github.com/CocoaPods/Specs"
+  kPrivateRemote  = ""
+  kSpecsName      = "XYSpecs"
+  # 具体在这个航道上面执行那些行为
+  #1. pod install
+ 	cocoapods(
+ 		clean: true,
+ 		podfile: './Example/Podfile',
+    repo_update: true,
+	)
+
+
+  #2.
+  # => git add .
+ 	git_add(path: ".")
+
+
+  # => git commit -am 'xxx'
+ 	git_commit(
+    path: ".", 
+    message: kMsg
+    )
+
+  # => git push origin master
+ 	push_to_git_remote
+
+  #3. 
+  if git_tag_exists(tag: kTagName)
+    UI.message("发现 tag:#{kTagName} 已经存在，执行 remove tag 操作")
+ 	  remove_tag(tag: kTagName)
+  end
+
+  # git tag 标签名称
+  add_git_tag(
+ 	tag: kTagName
+ 	)
+
+  # git push --tags
+ 	push_git_tags
+
+  #4. pod spec lint 
+  # pod_lib_lint(allow_warnings: true)
+
+  # pod repo push XXXX xxx.podspec
+  # pod_push(path: "#{targetName}.podspec", repo: "#{targetName}Spec", allow_warnings: true, use_libraries: true)
+  # pod_lib_lint(allow_warnings: true, allow_warnings: kAllowWarnings, use_libraries: kUseLibraries, sources: [kGitRemote, kPrivateRemote])
+  	 # pod repo push XXXX xxx.podspec --allow-warnings
+  pod_push( 
+    path: "#{kTargetName}.podspec", 
+    repo: kSpecsName, 
+    allow_warnings: kAllowWarnings,
+    use_libraries: kUseLibraries, 
+    sources: [kGitRemote, kPrivateRemote]
+    )
+
+end

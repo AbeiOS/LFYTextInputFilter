@@ -7,12 +7,16 @@
 //
 
 #import "LFYAppDelegate.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
 
 @implementation LFYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [IQKeyboardManager sharedManager].enable = YES;
+    [IQKeyboardManager sharedManager].keyboardDistanceFromTextField = 80;
+    
     return YES;
 }
 

@@ -1,16 +1,23 @@
 PODS:
+  - IQKeyboardManager (6.0.3)
   - LFYTextInputFilter (0.1.0)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - LFYTextInputFilter (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
 
 EXTERNAL SOURCES:
   LFYTextInputFilter:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LFYTextInputFilter: ed41c064a194fdbcad381d59195427018f56276b
+  IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  LFYTextInputFilter: bc861c731a9484e576f4bfafc73f4a94f057904a
 
-PODFILE CHECKSUM: 33f97586ad385ea32f2875dc2e8a9bba24974647
+PODFILE CHECKSUM: da2a858ad6e5eba954e6d62780e1ba0d3ca00253
 
 COCOAPODS: 1.5.3

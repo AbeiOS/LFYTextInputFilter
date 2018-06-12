@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'A 'UITextField' and 'UITextView' Category that can filter character, it filter you needn't character'
                        DESC
 
-  s.homepage         = 'https://github.com/2805508788@qq.com/LFYTextInputFilter'
+  s.homepage         = 'https://github.com/AbeiOS/LFYTextInputFilter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2805508788@qq.com' => 'abei_os@126.com' }
-  s.source           = { :git => 'https://github.com/2805508788@qq.com/LFYTextInputFilter.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AbeiOS/LFYTextInputFilter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

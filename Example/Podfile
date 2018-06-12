@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'LFYTextInputFilter_Example' do
   pod 'LFYTextInputFilter', :path => '../'
+  pod 'IQKeyboardManager'
 
   target 'LFYTextInputFilter_Tests' do
     inherit! :search_paths
