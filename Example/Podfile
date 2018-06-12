@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LFYTextInputFilter_Example' do
+  pod 'LFYTextInputFilter', :path => '../'
+
+  target 'LFYTextInputFilter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
