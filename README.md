@@ -5,6 +5,15 @@
 [![Version](https://img.shields.io/cocoapods/v/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 [![License](https://img.shields.io/cocoapods/l/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 [![Platform](https://img.shields.io/cocoapods/p/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
+
+## Screenshot
+# 只允许中文输入
+![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/nameLimit.gif)
+# 只允许数字输入
+![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/numberLimit.gif)
+# 多种限制组合输入
+ 咱们 Demo 见
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
