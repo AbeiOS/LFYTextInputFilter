@@ -10,10 +10,9 @@
 ![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/nameLimit.gif)
 # 只允许数字输入
 ![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/numberLimit.gif)
-# 多种限制组合输入
- 咱们 Demo 见
+同时支持多种组合
 
-# 只需要两步，限制你的输入
+## 想要你的代码更整洁，只需要两步
 1. 创建过滤对象
 ```
     /// 只能输入数字
@@ -21,7 +20,7 @@
         make.lfy_limit(10).lfy_option(LFYStrategyOptionNumber);
     }];
     
-    /// 只能输入字母
+    /// 只能输入字母和数字
     [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
         make.lfy_limit(15).lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter);
     }];
@@ -37,7 +36,7 @@
     }];
 
 ```
-2. Filter
+2. 多个 textView 只需一行代码
 ```
 
 #pragma mark - 先设置 Delegate
