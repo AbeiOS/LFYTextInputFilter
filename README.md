@@ -15,7 +15,6 @@
 ## 想要你的代码更整洁，只需要两步
 1. 创建过滤对象
 ```
-
     /// 只能输入字母和数字 
     [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
         make.lfy_limit(15).lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter);
@@ -25,11 +24,9 @@
     [_textField4 lfy_makeStrategy:^(LFYStrategyMaker *make) {
         make.lfy_limit(10).lfy_option(LFYStrategyOptionWhitespace).lfy_inverted();
     }];
-
 ```
 2. 调用 filter 方法
 ```
-
 #pragma mark - 请先设置 Delegate
 
 /// 如果是 textField 请先添加通知
@@ -43,7 +40,6 @@
 {
     [textView filter];
 }
-
 ```
 
 ## Requirements
