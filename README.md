@@ -10,10 +10,10 @@
 ![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/nameLimit.gif)
 ## 只允许数字输入
 ![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/numberLimit.gif)
-同时支持多种组合
+## 同时支持多种组合
 
-## 想要你的代码更整洁，只需要两步
-1. 创建过滤对象
+## 创建简单，两步即可
+1. 生成过滤对象
 ```
     /// 只能输入字母和数字 
     [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
