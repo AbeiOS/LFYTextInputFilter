@@ -6,9 +6,9 @@
 [![License](https://img.shields.io/cocoapods/l/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 [![Platform](https://img.shields.io/cocoapods/p/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 
-# 只允许中文输入
+## 只允许中文输入
 ![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/nameLimit.gif)
-# 只允许数字输入
+## 只允许数字输入
 ![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/numberLimit.gif)
 同时支持多种组合
 
