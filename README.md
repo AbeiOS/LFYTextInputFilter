@@ -15,19 +15,10 @@
 ## 想要你的代码更整洁，只需要两步
 1. 创建过滤对象
 ```
-    /// 只能输入数字
-    [_textView1 lfy_makeStrategy:^(LFYStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(LFYStrategyOptionNumber);
-    }];
-    
-    /// 只能输入字母和数字
+
+    /// 只能输入字母和数字 
     [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
         make.lfy_limit(15).lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter);
-    }];
-    
-    /// 只能输入名称
-    [_textField3 lfy_makeStrategy:^(LFYStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(LFYStrategyOptionName);
     }];
     
     /// 不能输入空格
@@ -39,9 +30,9 @@
 2. 不同的对象，相同的调用方法
 ```
 
-#pragma mark - 先设置 Delegate
+#pragma mark - 请先设置 Delegate
 
-/// 如果是 textField 先添加通知
+/// 如果是 textField 请先添加通知
 - (void)textFieldDidChanged:(NSNotification *)notification
 {
     UITextField *textField = notification.object;
@@ -56,7 +47,7 @@
 ```
 
 ## Requirements
-
+iOS 8.0
 ## Installation
 
 LFYTextInputFilter is available through [CocoaPods](https://cocoapods.org). To install
