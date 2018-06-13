@@ -13,7 +13,8 @@
 # 多种限制组合输入
  咱们 Demo 见
 
-# 创建过滤对象
+# 只需要两步，限制你的输入
+1. 创建过滤对象
 ```
     /// 只能输入数字
     [_textView1 lfy_makeStrategy:^(LFYStrategyMaker *make) {
@@ -36,7 +37,7 @@
     }];
 
 ```
-# 过滤 Filter
+2. Filter
 ```
 
 #pragma mark - 先设置 Delegate
