@@ -6,7 +6,6 @@
 [![License](https://img.shields.io/cocoapods/l/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 [![Platform](https://img.shields.io/cocoapods/p/LFYTextInputFilter.svg?style=flat)](https://cocoapods.org/pods/LFYTextInputFilter)
 
-## Screenshot
 # 只允许中文输入
 ![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/nameLimit.gif)
 # 只允许数字输入
@@ -14,9 +13,47 @@
 # 多种限制组合输入
  咱们 Demo 见
 
-## Example
+# 创建过滤对象
+```
+    /// 只能输入数字
+    [_textView1 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionNumber);
+    }];
+    
+    /// 只能输入字母
+    [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(15).lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter);
+    }];
+    
+    /// 只能输入名称
+    [_textField3 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionName);
+    }];
+    
+    /// 不能输入空格
+    [_textField4 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionWhitespace).lfy_inverted();
+    }];
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+# 过滤 Filter
+```
+
+#pragma mark - 先设置 Delegate
+
+/// 如果是 textField 先添加通知
+- (void)textFieldDidChanged:(NSNotification *)notification
+{
+    UITextField *textField = notification.object;
+    [textField filter];
+}
+
+- (void)textViewDidChange:(UITextView *)textView
+{
+    [textView filter];
+}
+
+```
 
 ## Requirements
 
