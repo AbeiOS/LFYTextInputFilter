@@ -36,7 +36,7 @@
     }];
 
 ```
-2. 多个 textView 只需一行代码
+2. 不同的对象，相同的调用方法
 ```
 
 #pragma mark - 先设置 Delegate
