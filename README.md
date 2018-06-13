@@ -27,7 +27,7 @@
     }];
 
 ```
-2. 不同的对象，相同的调用方法
+2. 调用 filter 方法
 ```
 
 #pragma mark - 请先设置 Delegate
