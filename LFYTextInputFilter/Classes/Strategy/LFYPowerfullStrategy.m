@@ -50,6 +50,13 @@
         }
         
         
+        if (self.appendChar
+            && [self.appendChar isKindOfClass:[NSString class]]
+            && self.appendChar.length > 0)
+        {
+            canInput |= [self.appendChar containsString:text];
+        }
+        
         /// 判断是否取反
         if (self.isInverted)
         {

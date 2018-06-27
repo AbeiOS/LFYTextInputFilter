@@ -1,6 +1,6 @@
 PODS:
   - IQKeyboardManager (6.0.3)
-  - LFYTextInputFilter (0.1.2)
+  - LFYTextInputFilter (0.1.3)
 
 DEPENDENCIES:
   - IQKeyboardManager
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
-  LFYTextInputFilter: 560194b4dc9c4429148f92a7b2ec7d1d0c7c5046
+  LFYTextInputFilter: 333f8d348f0fd218cb98ad8f5fc6a42fe7c7fa41
 
 PODFILE CHECKSUM: e38ee3d233d80bdb013d8f3258592f5c685a9068
 

@@ -10,6 +10,8 @@
 @interface LFYBaseValidStrategy : NSObject
 /// 字数限制
 @property (nonatomic, assign) NSInteger limit;
+/// 额外可输入字符串
+@property (nonatomic, copy) NSString *appendChar;
 
 #pragma mark - Public Method
 

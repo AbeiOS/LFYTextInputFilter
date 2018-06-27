@@ -17,6 +17,8 @@
 @property (nonatomic, assign) NSInteger length;
 /// 策略类型
 @property (nonatomic, assign) LFYStrategyOptions option;
+/// 可输入字符串
+@property (nonatomic, copy) NSString *appendChar;
 /// 是否取反
 @property (nonatomic, assign, getter=isInverted) BOOL inverted;
 
@@ -55,12 +57,26 @@
     };
 }
 
+- (LFYStrategyMaker *(^)(NSString *appendChar))lfy_appendChar;
+{
+    return ^(NSString *appendChar) {
+        self.appendChar = appendChar;
+        return self;
+    };
+}
+
 - (void)install
 {
     LFYPowerfullStrategy *strategy = [LFYPowerfullStrategy new];
     strategy.option = self.option;
     strategy.limit = self.length;
     strategy.inverted = self.isInverted;
+    
+    /// 策略的可选属性
+    if (self.appendChar)
+    {
+        strategy.appendChar = self.appendChar;
+    }
     
     ((UITextField *)self.textInput).validStrategy = strategy;
 }

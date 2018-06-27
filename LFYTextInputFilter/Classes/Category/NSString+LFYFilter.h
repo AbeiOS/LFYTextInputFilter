@@ -1,9 +1,7 @@
 //
 //  NSString+LFYFilter.h
-//  xiaoqishen
 //
-//  Created by 金泉斌 on 2017/6/27.
-//  Copyright © 2017年 xiaoyuxiaoyu. All rights reserved.
+//  Created by luffy on 2018/5/28.
 //
 
 #import <Foundation/Foundation.h>

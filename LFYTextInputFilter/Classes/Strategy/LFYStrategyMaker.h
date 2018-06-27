@@ -22,8 +22,13 @@ typedef NS_OPTIONS(NSInteger, LFYStrategyOptions) {
 
 + (LFYStrategyMaker *)maker:(id <UITextInput>)textInput;
 
+/// 输入时限制字数
 - (LFYStrategyMaker *(^)(NSInteger length))lfy_limit;
+/// 哪些 option 可输入
 - (LFYStrategyMaker *(^)(LFYStrategyOptions option))lfy_option;
+/// 输入时增加可用字符串
+- (LFYStrategyMaker *(^)(NSString *appendChar))lfy_appendChar;
+
 - (LFYStrategyMaker *)and;
 
 /// 取反
