@@ -11,7 +11,6 @@
 #import "LFYStrategyMaker.h"
 
 @interface LFYPowerfullStrategy : LFYBaseValidStrategy
-
 /// 策略类型
 @property (nonatomic, assign) LFYStrategyOptions option;
 /// 是否取反

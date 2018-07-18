@@ -42,7 +42,7 @@
     }];
     
     [_textField3 lfy_makeStrategy:^(LFYStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(LFYStrategyOptionName);
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionName | LFYStrategyOptionCharacter | LFYStrategyOptionNumber);
     }];
     
     [_textField4 lfy_makeStrategy:^(LFYStrategyMaker *make) {

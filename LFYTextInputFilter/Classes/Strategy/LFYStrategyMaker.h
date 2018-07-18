@@ -6,17 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-typedef NS_OPTIONS(NSInteger, LFYStrategyOptions) {
-    LFYStrategyOptionName       = 1 << 0, ///< 只能输入中文
-    LFYStrategyOptionNumber     = 1 << 1, ///< 只能输入数字
-    LFYStrategyOptionCharacter  = 1 << 2, ///< 只能输入字母
-    LFYStrategyOptionEmoji      = 1 << 3, ///< 只能输入 emoji
-    LFYStrategyOptionWhitespace = 1 << 4, ///< 只能输入空格
-    
-    LFYStrategyOptionPassword   = LFYStrategyOptionNumber | LFYStrategyOptionCharacter,       ///< 只能输入字母和数字
-    LFYStrategyOptionAll        = 1 << 5, ///< 不限制任何输入
-};
+#import "LFYPowerfullStrategy.h"
 
 @interface LFYStrategyMaker : NSObject
 
@@ -24,6 +14,8 @@ typedef NS_OPTIONS(NSInteger, LFYStrategyOptions) {
 
 /// 输入时限制字数
 - (LFYStrategyMaker *(^)(NSInteger length))lfy_limit;
+/// 输入时限制字数
+- (LFYStrategyMaker *(^)(LFYStrategyLimitLengthModel limitModel))lfy_limitModel;
 /// 哪些 option 可输入
 - (LFYStrategyMaker *(^)(LFYStrategyOptions option))lfy_option;
 /// 输入时增加可用字符串

@@ -56,4 +56,12 @@
  */
 - (BOOL)lfy_isValidWhitespace;
 
+
+/**
+ 一个中文等于两个字符
+
+ @return 总字符数量
+ */
+- (int)lfy_numberOfChar;
+
 @end

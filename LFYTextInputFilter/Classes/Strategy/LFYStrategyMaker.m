@@ -7,7 +7,6 @@
 
 #import "LFYStrategyMaker.h"
 #import "UITextField+LFYFilter.h"
-#import "LFYPowerfullStrategy.h"
 
 @interface LFYStrategyMaker ()
 
@@ -15,6 +14,8 @@
 @property (nonatomic, strong) id<UITextInput> textInput;
 /// 字符数量
 @property (nonatomic, assign) NSInteger length;
+/// 字符数量
+@property (nonatomic, assign) LFYStrategyLimitLengthModel limitModel;
 /// 策略类型
 @property (nonatomic, assign) LFYStrategyOptions option;
 /// 可输入字符串
@@ -49,6 +50,14 @@
     };
 }
 
+- (LFYStrategyMaker *(^)(LFYStrategyLimitLengthModel))lfy_limitModel
+{
+    return ^(LFYStrategyLimitLengthModel limitModel) {
+        self.limitModel = limitModel;
+        return self;
+    };
+}
+
 - (LFYStrategyMaker *(^)(LFYStrategyOptions))lfy_option
 {
     return ^(LFYStrategyOptions option) {
@@ -71,7 +80,7 @@
     strategy.option = self.option;
     strategy.limit = self.length;
     strategy.inverted = self.isInverted;
-    
+    strategy.limitModel = self.limitModel;
     /// 策略的可选属性
     if (self.appendChar)
     {

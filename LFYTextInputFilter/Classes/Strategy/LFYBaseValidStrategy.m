@@ -41,9 +41,14 @@
     
     [orignText enumerateSubstringsInRange:NSMakeRange(0, orignText.length) options:NSStringEnumerationByComposedCharacterSequences usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
         
-        if ([trimString length] >= self.limit) {
+        if ([self isMaxLength:trimString]) {
             *stop = YES;
             return ;
+        }
+        
+        if ([self isRatherThanMaxLength:[NSString stringWithFormat:@"%@%@", trimString, substring]])
+        {
+            return;
         }
         
         if (validHandler(substring))
@@ -61,5 +66,29 @@
     
     textInput.selectedTextRange = [textInput textRangeFromPosition:selectedPosition toPosition:selectedPosition];
 }
+/// 是否到达最大长度
+- (BOOL)isMaxLength:(NSString *)text
+{
+    switch (self.limitModel) {
+        case LFYStrategyLimitLengthModelNormal:
+            return text.length >= self.limit;
+            
+        case LFYStrategyLimitLengthModelCharacter:
+            return text.lfy_numberOfChar >= self.limit;
+    }
+}
+
+/// 是否超过最大长度
+- (BOOL)isRatherThanMaxLength:(NSString *)text
+{
+    switch (self.limitModel) {
+        case LFYStrategyLimitLengthModelNormal:
+            return text.length > self.limit;
+            
+        case LFYStrategyLimitLengthModelCharacter:
+            return text.lfy_numberOfChar > self.limit;
+    }
+}
+
 
 @end

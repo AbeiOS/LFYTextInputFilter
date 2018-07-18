@@ -145,6 +145,15 @@ typedef void (^EnumerateSubstringsBlock)(NSString * _Nullable substring,
     return [whitespacePredicate evaluateWithObject:self];
 }
 
+- (int)lfy_numberOfChar
+{
+    NSString *pattern = @"[\u4e00-\u9fa5]";
+    NSRegularExpression * regex = [[NSRegularExpression alloc] initWithPattern:pattern options:0 error:nil];
+    NSArray * result = [regex matchesInString:self options:NSMatchingReportProgress range:NSMakeRange(0, self.length)];
+    return  (int)self.length + (int)result.count;
+
+}
+
 #pragma mark - Private Method
 
 - (BOOL)matchPatternString:(NSString *)pattern {
