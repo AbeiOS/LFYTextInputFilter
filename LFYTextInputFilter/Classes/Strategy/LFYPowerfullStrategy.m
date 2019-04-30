@@ -38,6 +38,10 @@
             canInput |= text.lfy_isValidEmoji;
         }
         
+        if (self.option & LFYStrategyOptionSpecialChar)
+        {
+            canInput |= text.lfy_isValidSpecialCharacter;
+        }
         
         if (self.option & LFYStrategyOptionWhitespace)
         {

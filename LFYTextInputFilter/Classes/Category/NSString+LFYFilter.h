@@ -42,6 +42,9 @@
  */
 - (BOOL)lfy_isValidCharacter;
 
+/// 是否为特殊字符
+- (BOOL)lfy_isValidSpecialCharacter;
+
 /**
  单个字符是否为数字或者字母
 

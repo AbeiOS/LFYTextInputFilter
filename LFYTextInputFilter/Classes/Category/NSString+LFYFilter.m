@@ -114,6 +114,17 @@ typedef void (^EnumerateSubstringsBlock)(NSString * _Nullable substring,
     return [characterPredicate evaluateWithObject:self];
 }
 
+- (BOOL)lfy_isValidSpecialCharacter
+{
+    static NSPredicate *predicate;
+    
+    if (!predicate) {
+        predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", @"[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“'。，、？]"];
+    }
+    
+    return [predicate evaluateWithObject:self];
+}
+
 - (BOOL)lfy_isValidCharacterOrNumber
 {
     static NSPredicate *characterOrNumberPredicate;
