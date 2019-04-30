@@ -54,6 +54,13 @@ static const void *textViewValidKey = @"textViewValidKey";
             [delegate.class lfy_swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
         });
     }
+    else
+    {
+        static dispatch_once_t otherOnceToken;
+        dispatch_once(&otherOnceToken, ^{
+            [delegate.class lfy_swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
+        });
+    }
 }
 
 - (void)lfy_makeStrategy:(void (NS_NOESCAPE^)(LFYStrategyMaker *))block
