@@ -7,12 +7,33 @@
 //
 
 #import "TextViewController.h"
+#import "ExampleTextViewCell.h"
+#import <LFYTextInputFilter/LFYTextInputFilter.h>
 
 @interface TextViewController ()
 
 @end
 
 @implementation TextViewController
+
+- (instancetype)initWithStyle:(UITableViewStyle)style
+{
+    if (self = [super initWithStyle:style]) {
+        [self.tableView registerNib:[UINib nibWithNibName:@"ExampleTextViewCell" bundle:nil] forCellReuseIdentifier:@"ExampleTextViewCell"];
+    }
+    return self;
+}
+
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+    [self.tableView registerNib:[UINib nibWithNibName:@"ExampleTextViewCell" bundle:nil] forCellReuseIdentifier:@"ExampleTextViewCell"];
+}
+
+- (void)dealloc
+{
+    NSLog(@"类 %@ - 被销毁", self.class);
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -28,23 +49,82 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return 1;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    ExampleTextViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExampleTextViewCell" forIndexPath:indexPath];
     
+    cell.titleLab.text = @"只能输入数字";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionNumber);
+    }];
+    
+    cell.titleLab.text = @"只能输入字母";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionCharacter);
+    }];
+    
+    cell.titleLab.text = @"只能输入中文";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionName);
+    }];
+    
+    cell.titleLab.text = @"只能输入emoji";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionEmoji);
+    }];
+    
+    cell.titleLab.text = @"只能输入特殊字符";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionSpecialChar);
+    }];
+    
+    cell.titleLab.text = @"组合：字母+数字";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter);
+    }];
+    
+    cell.titleLab.text = @"组合：字母+特殊字符";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionSpecialChar | LFYStrategyOptionCharacter);
+    }];
+    
+    cell.titleLab.text = @"组合：数字 + abcd";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionNumber).lfy_appendChar(@"abcd");
+    }];
+    
+    cell.titleLab.text = @"组合：数字 + 字母 + \"万有引力\"";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter).lfy_appendChar(@"万有引力");
+    }];
+    
+    cell.titleLab.text = @"取反：数字不能输入";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionNumber).lfy_inverted();
+    }];
+    
+    cell.titleLab.text = @"取反：数字和字母不能输入";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter).lfy_appendChar(@"万有引力");
+    }];
+    
+    cell.titleLab.text = @"取反：中文不能输入";
+    [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
+        make.lfy_option(LFYStrategyOptionName).lfy_appendChar(@"万有引力");
+    }];
     // Configure the cell...
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
