@@ -7,12 +7,13 @@
 #import "UITextField+LFYFilter.h"
 #import <objc/message.h>
 #import "LFYBaseValidStrategy.h"
+#import "NSObject+UITextViewDelegate.h"
 
 @implementation UITextField (LFYFilter)
 
 static const void *validKey = @"validKey";
 
-- (void)lfy_makeStrategy:(void (^)(LFYStrategyMaker *))block
+- (void)lfy_makeStrategy:(void (NS_NOESCAPE ^)(LFYStrategyMaker *))block
 {
     LFYStrategyMaker *maker = [LFYStrategyMaker maker:self];
     block(maker);
@@ -27,6 +28,7 @@ static const void *validKey = @"validKey";
 
 - (void)setValidStrategy:(LFYBaseValidStrategy *)validStrategy
 {
+    [self addTarget:validStrategy action:NSSelectorFromString(@"textDidChanged:") forControlEvents:UIControlEventEditingChanged];
     objc_setAssociatedObject(self, validKey, validStrategy, OBJC_ASSOCIATION_RETAIN);
 }
 
@@ -42,7 +44,13 @@ static const void *validKey = @"validKey";
 
 static const void *textViewValidKey = @"textViewValidKey";
 
-- (void)lfy_makeStrategy:(void (^)(LFYStrategyMaker *))block
+- (void)setDelegate:(id<UITextViewDelegate>)delegate
+{
+    [super setDelegate:delegate];
+    [delegate.class swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
+}
+
+- (void)lfy_makeStrategy:(void (NS_NOESCAPE^)(LFYStrategyMaker *))block
 {
     LFYStrategyMaker *maker = [LFYStrategyMaker maker:self];
     block(maker);
@@ -57,6 +65,9 @@ static const void *textViewValidKey = @"textViewValidKey";
 
 - (void)setValidStrategy:(LFYBaseValidStrategy *)validStrategy
 {
+    if (!self.delegate) {
+        self.delegate = validStrategy;
+    }
     objc_setAssociatedObject(self, textViewValidKey, validStrategy, OBJC_ASSOCIATION_RETAIN);
 }
 

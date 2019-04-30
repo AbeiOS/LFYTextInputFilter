@@ -6,6 +6,7 @@
 //
 
 #import "LFYPowerfullStrategy.h"
+#import "UITextField+LFYFilter.h"
 
 @implementation LFYPowerfullStrategy
 
@@ -65,6 +66,11 @@
         
         return canInput;
     }];
+}
+
+- (void)textDidChanged:(UITextField *)textField
+{
+    [textField filter];
 }
 
 @end

@@ -34,7 +34,7 @@
     self.title = @"LFYTextInputFilter";
     
     [_textView1 lfy_makeStrategy:^(LFYStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(LFYStrategyOptionNumber).lfy_appendChar(@"abcd");
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionAll);
     }];
     
     [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
@@ -56,32 +56,6 @@
     [_textField6 lfy_makeStrategy:^(LFYStrategyMaker *make) {
         make.lfy_limit(10).lfy_option(LFYStrategyOptionAll);
     }];
-    
-    [self builderNotification:_textField2];
-    [self builderNotification:_textField3];
-    [self builderNotification:_textField4];
-    [self builderNotification:_textField5];
-    [self builderNotification:_textField6];
-}
-
-#pragma mark - Delegate
-
-- (void)textFieldDidChanged:(NSNotification *)notification
-{
-    UITextField *textField = notification.object;
-    [textField filter];
-}
-
-- (void)textViewDidChange:(UITextView *)textView
-{
-    [textView filter];
-}
-
-#pragma mark - Private Method
-
-- (void)builderNotification:(UITextField *)textField
-{
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldDidChanged:) name:UITextFieldTextDidChangeNotification object:textField];
 }
 
 - (void)didReceiveMemoryWarning

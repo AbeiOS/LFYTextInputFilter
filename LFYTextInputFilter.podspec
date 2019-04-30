@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LFYTextInputFilter'
-  s.version          = '0.1.4'
-  s.summary          = 'A UITextField and UITextView Category can filter character'
+  s.version          = '1.0.0'
+  s.summary          = 'lastVersion is 0.1.4'
   s.description      = <<-DESC
-  'A 'UITextField' and 'UITextView' Category that can filter character, it filter you needn't character'
+  LFYTextInputFilter v1.0.0 版本无需设置代理以及通知
                        DESC
   s.homepage         = 'https://github.com/AbeiOS/LFYTextInputFilter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

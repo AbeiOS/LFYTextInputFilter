@@ -14,9 +14,9 @@ typedef NS_OPTIONS(NSInteger, LFYStrategyOptions) {
     LFYStrategyOptionCharacter  = 1 << 2, ///< 只能输入字母
     LFYStrategyOptionEmoji      = 1 << 3, ///< 只能输入 emoji
     LFYStrategyOptionWhitespace = 1 << 4, ///< 只能输入空格
+    LFYStrategyOptionSpecialChar = 1 << 5, ///< 只能输入特殊字符
     
-    LFYStrategyOptionPassword   = LFYStrategyOptionNumber | LFYStrategyOptionCharacter,       ///< 只能输入字母和数字
-    LFYStrategyOptionAll        = 1 << 5, ///< 不限制任何输入
+    LFYStrategyOptionAll =  1 << 6,
 };
 
 /// 限制字数模式

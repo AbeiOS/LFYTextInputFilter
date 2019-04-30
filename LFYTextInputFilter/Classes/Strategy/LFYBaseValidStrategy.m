@@ -5,6 +5,7 @@
 //
 
 #import "LFYBaseValidStrategy.h"
+#import "UITextField+LFYFilter.h"
 
 @implementation LFYBaseValidStrategy
 
@@ -89,6 +90,5 @@
             return text.lfy_numberOfChar > self.limit;
     }
 }
-
 
 @end

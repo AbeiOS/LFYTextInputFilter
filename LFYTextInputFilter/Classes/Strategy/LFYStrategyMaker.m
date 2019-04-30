@@ -42,7 +42,7 @@
     return self;
 }
 
-- (LFYStrategyMaker *(^)(NSInteger))lfy_limit
+- (LFYStrategyMaker *(^)(NSInteger length))lfy_limit
 {
     return ^(NSInteger length) {
         self.length = length;
