@@ -11,7 +11,7 @@
 
 @implementation NSObject (UITextViewDelegate)
 
-+ (void)swizzledSelector:(SEL)swizzledSelector originalSelector:(SEL)originalSelector
++ (void)lfy_swizzledSelector:(SEL)swizzledSelector originalSelector:(SEL)originalSelector
 {
     Class class = [self class];
     Method originalMethod = class_getInstanceMethod(class, originalSelector);

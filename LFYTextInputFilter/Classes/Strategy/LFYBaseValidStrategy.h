@@ -25,7 +25,7 @@ typedef NS_OPTIONS(NSInteger, LFYStrategyLimitLengthModel) {
     LFYStrategyLimitLengthModelCharacter,   ///< 一个中文等于两个字符长度
 };
 
-@interface LFYBaseValidStrategy : NSObject
+@interface LFYBaseValidStrategy : NSObject <UITextViewDelegate>
 /// 字数限制
 @property (nonatomic, assign) NSInteger limit;
 /// 限制长度模式

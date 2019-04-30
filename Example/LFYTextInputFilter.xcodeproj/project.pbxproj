@@ -13,7 +13,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* LFYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LFYAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* LFYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LFYViewController.m */; };
+		6003F5A7195388D20070C39A /* TextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* TextFieldController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +24,7 @@
 		83AB234D9764BD6C4906F605 /* libPods-LFYTextInputFilter_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA787DF010F26B2A3A0A687 /* libPods-LFYTextInputFilter_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9E1B60D72244C58A00430F8F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B60D62244C58A00430F8F /* File.swift */; };
+		9ED1B0172278396000269AAD /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1B0162278396000269AAD /* TextViewController.m */; };
 		DE5F61BEAAF68BFC19350BBA /* libPods-LFYTextInputFilter_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7103C06D26DED59678173FF6 /* libPods-LFYTextInputFilter_Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +51,8 @@
 		6003F59B195388D20070C39A /* LFYTextInputFilter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFYTextInputFilter-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LFYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFYAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LFYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFYAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* LFYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFYViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* LFYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFYViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* TextFieldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* TextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* LFYTextInputFilter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFYTextInputFilter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -67,6 +68,8 @@
 		9E1B60D52244C58900430F8F /* LFYTextInputFilter_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LFYTextInputFilter_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		9E1B60D62244C58A00430F8F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		9E73436A22780A037BBACADB /* Pods-LFYTextInputFilter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFYTextInputFilter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFYTextInputFilter_Example/Pods-LFYTextInputFilter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED1B0152278396000269AAD /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		9ED1B0162278396000269AAD /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		DD37D05C53FF0C316E3B4922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E03C1394F1BFFE0F56C333D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E5DA5A46B9EBC90E8DA31F05 /* Pods-LFYTextInputFilter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFYTextInputFilter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFYTextInputFilter_Tests/Pods-LFYTextInputFilter_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,8 +141,7 @@
 				6003F59C195388D20070C39A /* LFYAppDelegate.h */,
 				6003F59D195388D20070C39A /* LFYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* LFYViewController.h */,
-				6003F5A6195388D20070C39A /* LFYViewController.m */,
+				9ED1B0142278390400269AAD /* Example */,
 				9E1B60D62244C58A00430F8F /* File.swift */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -199,6 +201,17 @@
 				E5DA5A46B9EBC90E8DA31F05 /* Pods-LFYTextInputFilter_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9ED1B0142278390400269AAD /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5A5195388D20070C39A /* TextFieldController.h */,
+				6003F5A6195388D20070C39A /* TextFieldController.m */,
+				9ED1B0152278396000269AAD /* TextViewController.h */,
+				9ED1B0162278396000269AAD /* TextViewController.m */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,9 +376,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED1B0172278396000269AAD /* TextViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LFYAppDelegate.m in Sources */,
 				9E1B60D72244C58A00430F8F /* File.swift in Sources */,
-				6003F5A7195388D20070C39A /* LFYViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* TextFieldController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

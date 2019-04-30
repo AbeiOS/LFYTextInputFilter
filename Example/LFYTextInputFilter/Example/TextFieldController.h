@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface LFYViewController : UIViewController
+@interface TextFieldController : UITableViewController
 
 @end
