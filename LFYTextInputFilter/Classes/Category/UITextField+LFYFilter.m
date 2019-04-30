@@ -47,9 +47,9 @@ static const void *textViewValidKey = @"textViewValidKey";
 - (void)setDelegate:(id<UITextViewDelegate>)delegate
 {
     [super setDelegate:delegate];
-
+    
     if (![delegate respondsToSelector:@selector(textViewDidChange:)]) {
-            [delegate.class lfy_swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
+        [delegate.class lfy_swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
     }
 }
 
