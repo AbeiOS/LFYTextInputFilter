@@ -119,7 +119,7 @@ typedef void (^EnumerateSubstringsBlock)(NSString * _Nullable substring,
     static NSPredicate *predicate;
     
     if (!predicate) {
-        predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", @"[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“'。，、？]"];
+        predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", @"[`~!！@#$^&*()=|{}:;',\\[\\].<>/?@#￥……&*（）——|{}【】；：”“。，、？\\-\\%，。\\\\_+’‘]"];
     }
     
     return [predicate evaluateWithObject:self];

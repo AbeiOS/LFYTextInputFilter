@@ -34,7 +34,7 @@
     self.title = @"LFYTextInputFilter";
     
     [_textView1 lfy_makeStrategy:^(LFYStrategyMaker *make) {
-        make.lfy_limit(10).lfy_option(LFYStrategyOptionAll);
+        make.lfy_limit(10).lfy_option(LFYStrategyOptionSpecialChar);
     }];
     
     [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
