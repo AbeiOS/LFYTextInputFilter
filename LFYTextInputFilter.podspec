@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LFYTextInputFilter'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'lastVersion is 0.1.4'
   s.description      = <<-DESC
   LFYTextInputFilter v1.0.0 版本无需设置代理以及通知
