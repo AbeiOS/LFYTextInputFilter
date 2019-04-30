@@ -12,35 +12,19 @@
 ![image](https://github.com/AbeiOS/LFYTextInputFilter/blob/master/Resource/numberLimit.gif)
 ## 同时支持多种组合
 
-## 创建简单，两步即可
-1. 生成过滤对象
+## 创建简单，无需添加代理
 ```
     /// 只能输入字母和数字 
-    [_textField2 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+    [_textField lfy_makeStrategy:^(LFYStrategyMaker *make) {
         make.lfy_limit(15).lfy_option(LFYStrategyOptionNumber | LFYStrategyOptionCharacter);
     }];
     
     /// 不能输入空格
-    [_textField4 lfy_makeStrategy:^(LFYStrategyMaker *make) {
+    [_textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
         make.lfy_limit(10).lfy_option(LFYStrategyOptionWhitespace).lfy_inverted();
     }];
 ```
-2. 调用 filter 方法
-```
-#pragma mark - 请先设置 Delegate
 
-/// 如果是 textField 请先添加通知
-- (void)textFieldDidChanged:(NSNotification *)notification
-{
-    UITextField *textField = notification.object;
-    [textField filter];
-}
-
-- (void)textViewDidChange:(UITextView *)textView
-{
-    [textView filter];
-}
-```
 
 ## Requirements
 iOS 8.0
