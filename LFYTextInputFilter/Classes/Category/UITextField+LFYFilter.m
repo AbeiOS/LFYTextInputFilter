@@ -47,7 +47,13 @@ static const void *textViewValidKey = @"textViewValidKey";
 - (void)setDelegate:(id<UITextViewDelegate>)delegate
 {
     [super setDelegate:delegate];
-    [delegate.class lfy_swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
+    if ([delegate isKindOfClass:LFYBaseValidStrategy.class])
+    {
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            [delegate.class lfy_swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
+        });
+    }
 }
 
 - (void)lfy_makeStrategy:(void (NS_NOESCAPE^)(LFYStrategyMaker *))block
@@ -65,7 +71,7 @@ static const void *textViewValidKey = @"textViewValidKey";
 
 - (void)setValidStrategy:(LFYBaseValidStrategy *)validStrategy
 {
-    if (!self.delegate) {
+    if (!self.delegate || [self.delegate isKindOfClass:LFYBaseValidStrategy.class]) {
         self.delegate = validStrategy;
     }
     objc_setAssociatedObject(self, textViewValidKey, validStrategy, OBJC_ASSOCIATION_RETAIN);

@@ -29,6 +29,8 @@
 		9EDA061622783D7000C58960 /* ExampleTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA061422783D7000C58960 /* ExampleTextFieldCell.xib */; };
 		9EDA061A22783D7F00C58960 /* ExampleTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA061822783D7F00C58960 /* ExampleTextViewCell.m */; };
 		9EDA061B22783D7F00C58960 /* ExampleTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA061922783D7F00C58960 /* ExampleTextViewCell.xib */; };
+		9EDA06222278490B00C58960 /* DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA06212278490B00C58960 /* DataProvider.m */; };
+		9EDA062C2278589F00C58960 /* ExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA062A2278589F00C58960 /* ExampleController.m */; };
 		DE5F61BEAAF68BFC19350BBA /* libPods-LFYTextInputFilter_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7103C06D26DED59678173FF6 /* libPods-LFYTextInputFilter_Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,10 @@
 		9EDA061722783D7F00C58960 /* ExampleTextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleTextViewCell.h; sourceTree = "<group>"; };
 		9EDA061822783D7F00C58960 /* ExampleTextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTextViewCell.m; sourceTree = "<group>"; };
 		9EDA061922783D7F00C58960 /* ExampleTextViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTextViewCell.xib; sourceTree = "<group>"; };
+		9EDA06202278490B00C58960 /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		9EDA06212278490B00C58960 /* DataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataProvider.m; sourceTree = "<group>"; };
+		9EDA06292278589F00C58960 /* ExampleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleController.h; sourceTree = "<group>"; };
+		9EDA062A2278589F00C58960 /* ExampleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleController.m; sourceTree = "<group>"; };
 		DD37D05C53FF0C316E3B4922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E03C1394F1BFFE0F56C333D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E5DA5A46B9EBC90E8DA31F05 /* Pods-LFYTextInputFilter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFYTextInputFilter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFYTextInputFilter_Tests/Pods-LFYTextInputFilter_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -216,16 +222,20 @@
 		9ED1B0142278390400269AAD /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5A5195388D20070C39A /* TextFieldController.h */,
-				6003F5A6195388D20070C39A /* TextFieldController.m */,
-				9ED1B0152278396000269AAD /* TextViewController.h */,
-				9ED1B0162278396000269AAD /* TextViewController.m */,
+				9EDA06202278490B00C58960 /* DataProvider.h */,
+				9EDA06212278490B00C58960 /* DataProvider.m */,
 				9EDA061222783D7000C58960 /* ExampleTextFieldCell.h */,
 				9EDA061322783D7000C58960 /* ExampleTextFieldCell.m */,
 				9EDA061422783D7000C58960 /* ExampleTextFieldCell.xib */,
 				9EDA061722783D7F00C58960 /* ExampleTextViewCell.h */,
 				9EDA061822783D7F00C58960 /* ExampleTextViewCell.m */,
 				9EDA061922783D7F00C58960 /* ExampleTextViewCell.xib */,
+				6003F5A5195388D20070C39A /* TextFieldController.h */,
+				6003F5A6195388D20070C39A /* TextFieldController.m */,
+				9ED1B0152278396000269AAD /* TextViewController.h */,
+				9ED1B0162278396000269AAD /* TextViewController.m */,
+				9EDA06292278589F00C58960 /* ExampleController.h */,
+				9EDA062A2278589F00C58960 /* ExampleController.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -395,11 +405,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ED1B0172278396000269AAD /* TextViewController.m in Sources */,
+				9EDA062C2278589F00C58960 /* ExampleController.m in Sources */,
 				6003F59E195388D20070C39A /* LFYAppDelegate.m in Sources */,
 				9EDA061522783D7000C58960 /* ExampleTextFieldCell.m in Sources */,
 				9E1B60D72244C58A00430F8F /* File.swift in Sources */,
 				6003F5A7195388D20070C39A /* TextFieldController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				9EDA06222278490B00C58960 /* DataProvider.m in Sources */,
 				9EDA061A22783D7F00C58960 /* ExampleTextViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
