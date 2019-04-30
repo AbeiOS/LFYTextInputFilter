@@ -47,19 +47,9 @@ static const void *textViewValidKey = @"textViewValidKey";
 - (void)setDelegate:(id<UITextViewDelegate>)delegate
 {
     [super setDelegate:delegate];
-    if ([delegate isKindOfClass:LFYBaseValidStrategy.class])
-    {
-        static dispatch_once_t onceToken;
-        dispatch_once(&onceToken, ^{
+
+    if (![delegate respondsToSelector:@selector(textViewDidChange:)]) {
             [delegate.class lfy_swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
-        });
-    }
-    else
-    {
-        static dispatch_once_t otherOnceToken;
-        dispatch_once(&otherOnceToken, ^{
-            [delegate.class lfy_swizzledSelector:@selector(lfy_textViewDidChange:) originalSelector:@selector(textViewDidChange:)];
-        });
     }
 }
 

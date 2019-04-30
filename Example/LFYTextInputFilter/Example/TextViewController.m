@@ -68,6 +68,13 @@
     BOOL isReverse = [param[@"isReverse"] boolValue];
     
     cell.titleLab.text = title;
+    if (indexPath.section == 1) {
+        cell.textView.delegate = self;
+    }
+    else
+    {
+        cell.textView.delegate = self.view;
+    }
     [cell.textView lfy_makeStrategy:^(LFYStrategyMaker *make) {
         make.lfy_option(options);
         
