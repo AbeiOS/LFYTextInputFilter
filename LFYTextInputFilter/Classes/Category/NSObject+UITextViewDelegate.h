@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (UITextViewDelegate) <UITextViewDelegate>
+@interface NSObject (UITextViewDelegate)
 
 + (void)swizzledSelector:(SEL)swizzledSelector originalSelector:(SEL)originalSelector;
 
