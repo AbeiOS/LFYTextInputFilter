@@ -12,7 +12,7 @@
 - (instancetype)init
 {
     if (self = [super init]) {
-        _limit = NSIntegerMax;
+        _limit = 1000;
     }
     return self;
 }
@@ -72,9 +72,11 @@
 {
     switch (self.limitModel) {
         case LFYStrategyLimitLengthModelNormal:
+            NSLog(@"text = %d %d", text.length, self.limit);
             return text.length >= self.limit;
             
         case LFYStrategyLimitLengthModelCharacter:
+            NSLog(@"text = %d %d", text.length, self.limit);
             return text.lfy_numberOfChar >= self.limit;
     }
 }

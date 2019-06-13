@@ -37,7 +37,8 @@
 {
     if (self = [super init]) {
         _textInput = textInput;
-        _length = CGFLOAT_MAX;
+        _length = 1000;
+        NSLog(@"%d", _length);
     }
     return self;
 }
@@ -81,6 +82,7 @@
     strategy.limit = self.length;
     strategy.inverted = self.isInverted;
     strategy.limitModel = self.limitModel;
+    NSLog(@"%d,  %d", strategy.limit, self.length);
     /// 策略的可选属性
     if (self.appendChar)
     {
